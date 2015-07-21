@@ -6,7 +6,226 @@ Author: @markpfaff @stephine @akashtolangee @maxdiediker
 Description:Custom theme for Seattle non-profit http://freedomprojectseattle.org/ as a part of coursework for web210 at SCCC
 */
 
+/* RESETS */
 
+body, body * {
+  margin: 0;
+  padding: 0;
+}
 * {
   box-sizing: border-box;
 }
+
+
+/* ----------------  BEGIN NAV-MAIN ----------------- */
+
+
+		/* #nav-main STYLES */
+
+#nav-main{
+}
+#nav-main ul {
+}
+
+#nav-main ul li {
+display: inline-block;
+
+}
+
+#nav-main li.current_page_item a {
+}
+#nav-main ul li.current_page_item {
+}
+
+#nav-main ul li:active{
+
+}
+
+
+/* ---------------- END NAV-MAIN -------------------- */
+
+
+/*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */
+
+div.hentry {
+margin-bottom: 20px;
+}
+
+.wp-caption-text  {
+}
+
+.alignnone {
+margin-bottom: 10px;
+}
+
+.alignleft {	/* applies to floated images */
+float: left;
+margin: 0 10px 10px 0px ;
+}
+
+.alignright { 	/* applies to floated images */
+float: right;
+margin: 0 0px 10px 10px;
+}
+
+.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#previous_image a,
+#next_image a {
+border-bottom: none;
+}
+
+.attachment-thumbnail,
+.size-thumbnail {
+padding: 5px;
+border: 1px solid #ddd;
+}
+
+#gallery-box {
+margin-bottom: 25px;
+}
+
+#comments-box,
+#respond {
+clear: both; 	/* clears floated prev/next nav on comments.php template */
+}
+
+/* WIDGETS */
+
+.widget {
+margin-bottom: 25px;
+}
+
+
+/* COMMENTS */
+
+#comments-head {
+border-bottom: 1px solid #ddd;
+}
+
+#comments-box ol,
+#comments-box ul {
+list-style-type:none;
+padding-left: 0;
+margin-left: 0;
+}
+
+#comments-box ol li {
+margin: 10px 0;
+}
+
+#comments-box cite {
+font-weight:bold;
+font-size: 13px;
+}
+
+.comment-author {
+margin-bottom: 2px;
+}
+
+.comment p {
+clear:both
+}
+
+.reply {
+font-size:10px;
+}
+
+.comment-meta {
+font-size:10px;
+}
+
+#commentform p {
+font-size: 12px;
+}
+
+.avatar {
+float: left;
+margin: 0 10px 10px 0;
+}
+
+
+#content img.print {
+float: right;
+border: none;
+clear:both;
+margin-bottom: 20px;
+}
+
+#content object {
+margin: 0 0 10px 0px ;
+}
+
+#content pre {
+max-height: 300px;
+font-size: 12px;
+padding: 10px;
+margin: 10px 0px;
+overflow: auto;
+}
+
+
+
+.clear {
+clear:both;
+}
+
+
+
+/* POST ITEMS */
+.post-box {
+border-bottom:1px solid #DDDDDD;
+margin-bottom:30px;
+padding-bottom:10px;
+}
+
+.postmetadata {
+font-size:12px;
+font-style:italic;
+}
+
+.sticky {
+
+}
+
+.bypostauthor {
+
+}
+
+.read-more {
+font-style: italic;
+}
+
+/* GALLERY ITEMS */
+.gallery {
+margin: auto;
+}
+
+.gallery-item {
+float: left;
+margin: 5px 3px 5px 0;
+text-align: center;
+}
+
+#content p.smallattachment a,
+#content dl.gallery-item a {
+border-bottom: none;
+}
+
+.gallery img {
+}
+
+.gallery-caption {
+margin-left: 0;
+}
+
+#content p.wp-caption-text {
+margin-top: 10px;
+font-size: 12px;
+}
+
+/*  ---------------  END WORDPRESS-GENERATED SELECTORS  ---------------  */

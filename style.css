@@ -6,7 +6,7 @@ Author: @markpfaff @stephine @akashtolangee @maxdiediker
 Description:Custom theme for Seattle non-profit http://freedomprojectseattle.org/ as a part of coursework for web210 at SCCC
 */
 
-/* RESETS */
+/* ------------RESETS----------------------- */
 
 body, body * {
   margin: 0;
@@ -16,19 +16,28 @@ body, body * {
   box-sizing: border-box;
 }
 
+/* ------------END RESETS----------------------- */
+
+header{
+  background:antiquewhite;
+  height:250px;
+}
 
 /* ----------------  BEGIN NAV-MAIN ----------------- */
 
 
-		/* #nav-main STYLES */
-
 #nav-main{
+	width : 940px;
+  background:yellow;
 }
 #nav-main ul {
 }
 
 #nav-main ul li {
-display: inline-block;
+  display: inline-block;
+  text-align: center;
+  float: left;
+
 
 }
 

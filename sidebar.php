@@ -12,7 +12,7 @@ Here are some examples:
 
     <div class="widget">
       <h3>Primary Sidebar</h3>
-        <p>Look, it's the Primary Sidebar!</p>
+        <p>Primary Sidebar - id is "secondary"</p>
     </div>
 
     <div class="widget">
@@ -29,7 +29,7 @@ Here are some examples:
     </div>
     	<!-- End Categories -->
 
-  
+
 
 <?php /*?> end default code to display in the sidebar when no widgets are active. <?php */?>
 

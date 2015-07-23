@@ -17,9 +17,10 @@ body, body * {
 }
 
 /* ------------END RESETS----------------------- */
-wrapper{
+#wrapper{
   width:1200px;
   background:#F8E0F1;/*temp wrapper purple */
+
 }
 
 header{
@@ -27,9 +28,7 @@ header{
   height:250px;
 }
 
-#wrappper{
-  background: #E0F8F7;
-}
+
 
 /* ----------------  BEGIN NAV-MAIN ----------------- */
 
@@ -39,6 +38,7 @@ header{
   background:yellow;
 }
 #nav-main ul {
+  height: 75px;
 }
 
 #nav-main ul ul{
@@ -88,7 +88,28 @@ li ul li {
 
 /* ---------------- END PRIMARY NAV -------------------- */
 
+/* ---------------- BEGIN CONTENT -------------------- */
 
+#content{
+
+  width: 780px;
+  float:left;
+  background:#CEF6F5;
+}
+#content.page{
+  background: yellow;
+}
+
+/* ---------------- END CONTENT -------------------- */
+
+/* ---------------- BEGIN FOOTER -------------------- */
+
+footer{
+  clear:both;
+  width:100%;
+  background:#F6CECE;
+}
+/* ---------------- END FOOTER -------------------- */
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */
 
 div.hentry {

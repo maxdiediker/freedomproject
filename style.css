@@ -17,17 +17,25 @@ body, body * {
 }
 
 /* ------------END RESETS----------------------- */
+wrapper{
+  width:1200px;
+  background:#F8E0F1;/*temp wrapper purple */
+}
 
 header{
   background:antiquewhite;
   height:250px;
 }
 
+#wrappper{
+  background: #E0F8F7;
+}
+
 /* ----------------  BEGIN NAV-MAIN ----------------- */
 
 
 #nav-main{
-	width : 940px;
+	width : 100%;
   background:yellow;
 }
 #nav-main ul {
@@ -72,8 +80,10 @@ li ul li {
 /* ---------------- BEGIN PRIMARY NAV -------------------- */
 
 #secondary{
+  clear:both;
   float:right;
-  width:300px;
+  width:380px;
+  background:#E0F8F7;/* temp light green */
 }
 
 /* ---------------- END PRIMARY NAV -------------------- */

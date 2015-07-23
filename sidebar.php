@@ -1,13 +1,13 @@
 <aside id="secondary"> 	<?php /*?> the aside's id is used for CSS styling <?php */?>
-	<?php if ( is_active_sidebar( 'primary' ) ) : ?>  
+	<?php if ( is_active_sidebar( 'primary' ) ) : ?>
 
 		<?php dynamic_sidebar( 'primary' ); ?>
 
 	<?php else : ?>
-    
-<?php /*?> 
-Replace the code below with whatever default code you want to display in the sidebar when no widgets are active. 
-Here are some examples: 
+
+<?php /*?>
+Replace the code below with whatever default code you want to display in the sidebar when no widgets are active.
+Here are some examples:
 <?php */?>
 
     <div class="widget">
@@ -17,7 +17,7 @@ Here are some examples:
 
     <div class="widget">
  		<h3>Search</h3>
-			<?php get_search_form(); /* outputs the default Wordpress search form */ ?>        
+			<?php get_search_form(); /* outputs the default Wordpress search form */ ?>
     </div>
 
         <!-- Begin Categories -->
@@ -29,17 +29,8 @@ Here are some examples:
     </div>
     	<!-- End Categories -->
 
-        <!-- Begin Meta -->
-    <div class="widget">
-        <h3>Meta</h3>
-        <ul>
-        <?php wp_register(); ?>
-        <li><?php wp_loginout(); ?></li>
-        <?php wp_meta(); ?>
-        </ul>
-    </div>
-    	<!-- End Meta -->
-        
+  
+
 <?php /*?> end default code to display in the sidebar when no widgets are active. <?php */?>
 
 	<?php endif; ?>

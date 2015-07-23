@@ -19,6 +19,7 @@ body, body * {
 /* ------------END RESETS----------------------- */
 #wrapper{
   width:1200px;
+  margin:auto;
   background:#F8E0F1;/*temp wrapper purple */
 
 }
@@ -35,7 +36,7 @@ header{
 
 #nav-main{
 	width : 100%;
-  background:yellow;
+  background:white;
 }
 #nav-main ul {
   height: 75px;
@@ -79,10 +80,11 @@ li ul li {
 
 /* ---------------- BEGIN PRIMARY NAV -------------------- */
 
-#secondary{
+#primary{
   clear:both;
   float:right;
   width:380px;
+  border:1px solid red;
   background:#E0F8F7;/* temp light green */
 }
 
@@ -97,7 +99,7 @@ li ul li {
   background:#CEF6F5;
 }
 #content.page{
-  background: yellow;
+  background: #CEF6CE;
 }
 
 /* ---------------- END CONTENT -------------------- */
@@ -106,8 +108,9 @@ li ul li {
 
 footer{
   clear:both;
+  height: 100px;
   width:100%;
-  background:#F6CECE;
+  background:#00FF80;
 }
 /* ---------------- END FOOTER -------------------- */
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */

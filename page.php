@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- START SIDEBAR -->
-<?php get_sidebar(); ?>
+<?php get_sidebar('primary'); ?>
 <!-- END SIDEBAR -->
 
 <!-- START CONTENT -->

@@ -33,13 +33,29 @@ header{
 #nav-main ul {
 }
 
+#nav-main ul ul{
+  display:none;
+  /*display:block;*/
+}
+li ul li {
+  background: yellow;
+  clear: both;
+ }
+
+ ul.sub-menu{
+  width: auto;
+  display: block;
+ }
+
+
 #nav-main ul li {
   display: inline-block;
   text-align: center;
   float: left;
-
-
+  width: 12%;
 }
+
+
 
 #nav-main li.current_page_item a {
 }
@@ -52,6 +68,15 @@ header{
 
 
 /* ---------------- END NAV-MAIN -------------------- */
+
+/* ---------------- BEGIN PRIMARY NAV -------------------- */
+
+#secondary{
+  float:right;
+  width:300px;
+}
+
+/* ---------------- END PRIMARY NAV -------------------- */
 
 
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */

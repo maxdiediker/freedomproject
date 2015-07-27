@@ -1,4 +1,4 @@
-<aside id="secondary"> 	<?php /*?> the aside's id is used for CSS styling <?php */?>
+<aside id="primary"> 	<?php /*?> the aside's id is used for CSS styling <?php */?>
 	<?php if ( is_active_sidebar( 'primary' ) ) : ?>
 
 		<?php dynamic_sidebar( 'primary' ); ?>
@@ -12,7 +12,7 @@ Here are some examples:
 
     <div class="widget">
       <h3>Primary Sidebar</h3>
-        <p>Primary Sidebar - id is "secondary"</p>
+        <p>This should not display</p>
     </div>
 
     <div class="widget">
@@ -29,7 +29,16 @@ Here are some examples:
     </div>
     	<!-- End Categories -->
 
-
+        <!-- Begin Meta -->
+    <div class="widget">
+        <h3>Meta</h3>
+        <ul>
+        <?php wp_register(); ?>
+        <li><?php wp_loginout(); ?></li>
+        <?php wp_meta(); ?>
+        </ul>
+    </div>
+    	<!-- End Meta -->
 
 <?php /*?> end default code to display in the sidebar when no widgets are active. <?php */?>
 

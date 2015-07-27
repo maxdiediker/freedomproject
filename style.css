@@ -78,6 +78,12 @@ li ul li {
 
 /* ---------------- END NAV-MAIN -------------------- */
 
+#main{
+  width: 780px;
+  height:500px;
+  background: #F6E3CE;
+}
+
 /* ---------------- BEGIN PRIMARY NAV -------------------- */
 
 #primary{

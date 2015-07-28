@@ -5,12 +5,12 @@
 <!-- END SIDEBAR -->
 
 <div id = "main">
-<h2>I am trying to break Github process
+<h2>I am trying to break Github process in div id "main"</h2>
 
 
 </div>
 <!-- end main -->
 
-<h1>Added this with Stephanie's
+
 
 <?php get_footer(); ?>

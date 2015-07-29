@@ -29,7 +29,9 @@ header{
   height:250px;
 }
 
-
+#main-single{
+  background: green;
+}
 
 /* ----------------  BEGIN NAV-MAIN ----------------- */
 

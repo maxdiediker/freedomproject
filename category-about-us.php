@@ -5,7 +5,8 @@
 <!-- END SIDEBAR -->
 
 <!-- START CONTENT -->
-<H2>THIS IS THE ABOUT US PAGE!!<H2>
+<H2>THIS IS THE ABOUT US PAGE!!</H2>
+<p>it only displays posts with 'about us' category</p>
 <div id="content" class="index">
 <?php if (have_posts()) : ?>
 
@@ -15,7 +16,7 @@
         <p class="postmetadata">
 
             <span class="cat"><?php the_category(', ') ?></span>
-          
+
 		<?php the_content('More &raquo;'); ?>
 
         </div>

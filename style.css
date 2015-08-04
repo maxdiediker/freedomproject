@@ -86,17 +86,7 @@ li ul li {
   background: #F6E3CE;
 }
 
-/* ---------------- BEGIN PRIMARY NAV -------------------- */
 
-#primary{
-  clear:both;
-  float:right;
-  width:380px;
-  border:1px solid red;
-  background:#E0F8F7;/* temp light green */
-}
-
-/* ---------------- END PRIMARY NAV -------------------- */
 
 /* ---------------- BEGIN CONTENT -------------------- */
 
@@ -121,6 +111,40 @@ footer{
   background:#00FF80;
 }
 /* ---------------- END FOOTER -------------------- */
+
+/* ---------------SIDEBAR TEXT STYLES----------- */
+#primary{
+  clear:both;
+  float:right;
+  width:380px;
+  background:yellow;
+}
+
+#primary p, #secondary p{
+		margin:1.3em 15px;
+}
+
+#secondary img, #primary img{
+ margin-top:10px;
+ margin-left:auto;
+ margin-left:auto;
+}
+
+#primary ul li,
+#secondary ul li {
+list-style-type:none;
+margin-bottom: 8px;
+padding-left: 10px;
+
+  }
+
+  #primary h3 {
+	font-size: 1.3em;
+	background:green;
+	font-variant: none;
+  color:white;
+	}
+  /* ---------------END SIDEBAR TEXT STYLES----------- */
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */
 
 div.hentry {

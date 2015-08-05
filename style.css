@@ -20,7 +20,7 @@ body, body * {
 #wrapper{
   width:1200px;
   margin:auto;
-  background:#F8E0F1;/*temp wrapper purple */
+  background:none;
 
 }
 
@@ -46,14 +46,20 @@ header{
 }
 
 #nav-main ul ul{
-  display:none;
-  /*display:block;*/
+
 }
 #nav-main li ul li {
   background: yellow;
   clear: both;
+  width: 100%;
+ }
+ .sub-menu {
+   display: none;
  }
 
+ .current_page_item .sub-menu, .current_page_parent .sub-menu {
+   display: block;
+ }
  #nav-main ul.sub-menu{
   width: auto;
   display: block;
@@ -65,7 +71,7 @@ header{
   text-align: center;
   float: left;
   width: 12%;
-  	padding:1.5em 0 1.5em 0;
+	padding:1.5em 0 1.5em 0;
 }
 
 #nav-main ul li a {
@@ -93,7 +99,6 @@ header{
 
 #main{
   width: 780px;
-
   background: #F6E3CE;
 }
 
@@ -105,7 +110,7 @@ header{
 
   width: 780px;
   float:left;
-  background:#d7ead0;/*light tourquoise*/s
+  background:#d7ead0;/*light tourquoise*/
 }
 #content.page{
   background: #CEF6CE;
@@ -128,7 +133,7 @@ footer{
   clear:both;
   float:right;
   width:380px;
-  background:yellow;
+  background:none;
 }
 
 #primary p, #secondary p{

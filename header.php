@@ -25,21 +25,14 @@
 
 <div id="wrapper">
 <header>
-	<div id = "socialmedia"><!--open #socialmedia-->
-
-							 <?php wp_nav_menu( array(
-								 'theme_location' => 'social-menu' ,
-								 'menu' => 'Social Menu' ,
-								 'container'  => 'ul',
-								 ) ); ?>
-					</div><!--/#socialmedia-->
 
 	<div id="innerheader">
+
 			<h1>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="freedom logo" id="logo"/>
 				<!-- for screen readers -->
-					<span class="hidden">'Changing prisioners into peacemakers'</span></a>
+
 					</h1>
 
 	</div>

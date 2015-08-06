@@ -108,38 +108,3 @@ function the_breadcrumb() {
         echo '</ul>';
 }
 /* end breadcrumb function*/
-
-// Get Child Pages
-function get_child_pages() {
-
-	global $post;
-
-	rewind_posts(); // stop any previous loops
-	query_posts(array('post_type' => 'page', 'posts_per_page' => -1, 'post_status' => publish,'post_parent' => $post->ID,'order' => 'ASC','orderby' => 'menu_order')); // query and order child pages
-
-	while (have_posts()) : the_post();
-
-		$childPermalink = get_permalink( $post->ID ); // post permalink
-		$childID = $post->ID; // post id
-		$childTitle = $post->post_title; // post title
-		$childExcerpt = $post->post_excerpt; // post excerpt
-
-		echo '<article id="page-excerpt-'.$childID.'" class="page-excerpt">';
-		echo '<h3><a href="'.$childPermalink.'">'.$childTitle.' &raquo;</a></h3>';
-		echo '<p>'.$childExcerpt.' <a href="'.$childPermalink.'">Read More&nbsp;&raquo;</a></p>';
-		echo '</article>';
-
-	endwhile;
-
-	// reset query
-	wp_reset_query();
-
-}
-//adds excerpts to page
-add_action( 'init', 'my_add_excerpts_to_pages' );
-2
-function my_add_excerpts_to_pages() {
-3
-	 add_post_type_support( 'page', 'excerpt' );
-4
-}

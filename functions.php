@@ -108,6 +108,10 @@ function the_breadcrumb() {
         echo '</ul>';
 }
 /* end breadcrumb function*/
+
+// Create Page Excerpts
+add_post_type_support( 'page', 'excerpt' );
+//
 // Get Child Pages
 function get_child_pages() {
 
@@ -162,4 +166,4 @@ function add_flexslider() {
 
 	} // end see if images attachmed
 }
-// 
+//

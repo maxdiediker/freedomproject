@@ -154,6 +154,10 @@ overflow: hidden;
   width: 780px;
   background: #F6E3CE;
 }
+.excerpt-peach{
+  border-radius: 8px;
+  background: #f5e9d1;/*light peach */
+}
 
 
 

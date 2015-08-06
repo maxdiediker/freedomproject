@@ -135,4 +135,11 @@ function get_child_pages() {
 	wp_reset_query();
 
 }
-//
+//adds excerpts to page
+add_action( 'init', 'my_add_excerpts_to_pages' );
+2
+function my_add_excerpts_to_pages() {
+3
+	 add_post_type_support( 'page', 'excerpt' );
+4
+}

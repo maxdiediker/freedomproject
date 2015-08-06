@@ -108,3 +108,58 @@ function the_breadcrumb() {
         echo '</ul>';
 }
 /* end breadcrumb function*/
+// Get Child Pages
+function get_child_pages() {
+
+	global $post;
+
+	rewind_posts(); // stop any previous loops
+	query_posts(array('post_type' => 'page', 'posts_per_page' => -1, 'post_status' => publish,'post_parent' => $post->ID,'order' => 'ASC','orderby' => 'menu_order')); // query and order child pages
+
+	while (have_posts()) : the_post();
+
+		$childPermalink = get_permalink( $post->ID ); // post permalink
+		$childID = $post->ID; // post id
+		$childTitle = $post->post_title; // post title
+		$childExcerpt = $post->post_excerpt; // post excerpt
+
+		echo '<article id="page-excerpt-'.$childID.'" class="page-excerpt">';
+		echo '<h3><a href="'.$childPermalink.'">'.$childTitle.' &raquo;</a></h3>';
+		echo '<p>'.$childExcerpt.' <a href="'.$childPermalink.'">Read More&nbsp;&raquo;</a></p>';
+		echo '</article>';
+
+	endwhile;
+
+	// reset query
+	wp_reset_query();
+
+}
+//
+
+// Add a Flexslider Gallery
+function add_flexslider() {
+
+	global $post; // don't forget to make this a global variable inside your function
+	$attachments = get_children(array('post_parent' => $post->ID, 'order' => 'ASC', 'orderby' => 'menu_order',  'post_type' => 'attachment', 'post_mime_type' => 'image', ));
+	if ($attachments) { // see if there are images attached to posting
+
+		echo '<div id="spotlight-home" class="flexslider">';
+		echo '<ul class="slides">';
+
+		foreach ( $attachments as $attachment_id => $attachment ) { // create the list items for images with captions
+
+			echo '<li>';
+			echo wp_get_attachment_image($attachment_id, 'full'); // get image size large
+			echo '<span class="description">';
+			echo get_post_field('post_content', $attachment->ID); // get image description field
+			echo '</span>';
+			echo '</li>';
+
+		}
+
+		echo '</ul>';
+		echo '</div>';
+
+	} // end see if images attachmed
+}
+// 

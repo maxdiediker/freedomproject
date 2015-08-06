@@ -25,6 +25,17 @@
 
 <div id="wrapper">
 <header>
+	<div id = "socialmedia"><!--open #socialmedia-->
+
+							 <?php wp_nav_menu( array(
+								 'theme_location' => 'social-menu' ,
+								 'menu' => 'Social Menu' ,
+								 'container'  => 'ul',
+
+
+								 ) ); ?>
+
+					</div><!--/#socialmedia-->
 
 	<!-- Begin Logo -->
 		<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>

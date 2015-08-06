@@ -39,18 +39,21 @@ header{
 #nav-main{
 	width : 100%;
   background:#63897a;/* dark turquoise */
+  border-radius:8px;
 }
 #nav-main ul {
   height: 75px;
 
 }
 
-#nav-main ul ul{
+#nav-main ul ul.sub-menu{
+  display: none;
+  background:#63897a;/* dark turquoise */
 
 }
 #nav-main li ul li {
-  background: yellow;
-  clear: both;
+
+
   width: 100%;
  }
  .sub-menu {
@@ -97,7 +100,48 @@ header{
 
 /* ---------------- END NAV-MAIN -------------------- */
 
+/* ---------------- BEGIN SOCIAL MEDIA -------------------- */
+#socialmedia {
+  margin-top: 0;
+  list-style:none;
+  float:left;
+}
+
+#socialmedia ul {
+  display: inline;
+}
+
+#socialmedia ul li {
+  display: inline-block;
+  padding: 10px 10px;
+
+  }
+
+#socialmedia a {
+display:block;
+width:40px;
+height:40px;
+background-repeat: no-repeat;
+background-size: cover;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.twitter a {
+  display:block;
+  background-image:url('images/twitter.jpg');
+}
+.facebook a {
+  display:block;
+  background-image:url('images/github.png');
+}
+
+
+/* ---------------- END SOCIAL MEDIA -------------------- */
+
 #main{
+  border-radius:8px;
   width: 780px;
   background: #F6E3CE;
 }
@@ -107,12 +151,13 @@ header{
 /* ---------------- BEGIN CONTENT -------------------- */
 
 #content{
-
+  border-radius:8px;
   width: 780px;
   float:left;
   background:#d7ead0;/*light tourquoise*/
 }
 #content.page{
+  border-radius:8px;
   background: #CEF6CE;
 }
 

@@ -38,7 +38,7 @@ if ( function_exists( 'register_nav_menus' ) ) {
 	register_nav_menus(
 		array(
 		  'main-menu' => 'Main Menu',
-		  'utility-menu' => 'Utility Menu'
+		  'social-menu' => 'Social Menu'
 		)
 	);
 }

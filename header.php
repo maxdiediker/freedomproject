@@ -31,16 +31,22 @@
 								 'theme_location' => 'social-menu' ,
 								 'menu' => 'Social Menu' ,
 								 'container'  => 'ul',
-
-
 								 ) ); ?>
-
 					</div><!--/#socialmedia-->
 
-	<!-- Begin Logo -->
-		<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>
-		<p class="description"><?php bloginfo('description'); ?></p>
-    <!-- End Logo -->
+	<div id="innerheader">
+			<h1>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="freedom logo" id="logo"/>
+				<!-- for screen readers -->
+					<span class="hidden">'Changing prisioners into peacemakers'</span></a>
+					</h1>
+
+	</div>
+
+	<!-- innerheader -->
+
+
 
 </header>
 

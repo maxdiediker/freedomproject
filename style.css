@@ -21,12 +21,21 @@ body, body * {
   width:1200px;
   margin:auto;
   background:none;
-
 }
 
 header{
   background:#a8c3a4;/*med tourquoise*/
   height:150px;
+  border-radius: 8px;
+}
+#innerheader{
+    float:left;
+    width:1000px;
+  }
+
+#logo {
+		float: right;
+		max-width: 700px;
 }
 
 #main-single{

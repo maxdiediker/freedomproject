@@ -27,18 +27,32 @@
 <header>
 
 	<div id="innerheader">
+		<div id="socialmedia">
+			<?php wp_nav_menu( array(
+					'theme_location' => 'social-menu' ,
+					'menu' => 'Social Menu' ,
+					'container'  => 'ul',									
+					) ); ?>
+			
+		</div>
+	<!-- social -->
 
-			<h1>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+	
+
+		<h1>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="freedom logo" id="logo"/>
-				<!-- for screen readers -->
+			<!-- for screen readers -->
 
-					</h1>
+		</h1>
 
 	</div>
 
 	<!-- innerheader -->
-
+	<div id ="donatebtn">
+		<h3>Donate</h3>
+		<!-- <img src = "images/donate.png" alt="donate button"> -->
+	</div>
 
 
 </header>

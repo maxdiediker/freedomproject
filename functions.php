@@ -43,6 +43,20 @@ if ( function_exists( 'register_nav_menus' ) ) {
 	);
 }
 
+register_nav_menus();
+
+register_nav_menu("main_menu", "Main Menu");
+
+$mainMenu = array(
+	"theme_location" => "main_menu",
+	"container" => "ul",
+	"container_class" => "",
+	"container_id" => "main_menu",
+	"depth" => 1
+);
+
+
+
 //Register sidebars
 add_action( 'widgets_init', 'my_register_sidebars' );
 

@@ -11,7 +11,10 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
+
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
+  	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/media-query.css" type=text/css" />
+
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico" />
 
@@ -24,6 +27,7 @@
 <body <?php body_class(); ?>>
 
 <div id="wrapper">
+
 <header>
 
 	<div id="innerheader">
@@ -58,14 +62,12 @@
 </header>
 
 <!-- START NAVIGATION -->
-	<nav id="nav-main">
-      <?php wp_nav_menu( array(
-			'theme_location' => 'main-menu' ,
-			'menu' => 'Main Menu' ,
-			'container'  => 'ul',
 
-		) ); ?>
-</nav>
+	<div class="jquery-nav">
+				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.jpg"></div></a></h4>
+				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
+			</div>
+
 <!-- END NAVIGATION -->
 
 <!-- START MIDDLE -->

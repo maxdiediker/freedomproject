@@ -10,5 +10,33 @@
 
 <?php /* wp_footer function must be last item before closing body tag: many plugins use this hook to reference JavaScript files */ ?>
 <?php wp_footer(); ?>
+
+<script>
+
+
+	window.onload = function() {
+
+
+		jQuery(".jquery-title").click(function() {
+			jQuery(".menu-main-menu-container").slideToggle();
+			return false;
+		});
+
+
+		jQuery(window).resize(function(){
+
+			if (jQuery(window).width() > 800) {
+				jQuery(".menu-main-menu-container").css('display', 'block');
+			}
+
+			if (jQuery(window).width() < 800) {
+				jQuery(".menu-main-menu-container").css('display', 'none');
+			}
+		});
+
+	};
+
+
+	</script>
 </body>
 </html>

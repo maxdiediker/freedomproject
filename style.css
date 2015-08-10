@@ -203,7 +203,7 @@ h3 {
 .jquery-nav {
   max-width: 1200px;
   margin: 0 auto;
-
+  overflow: hidden;
 }
 .jquery-title {
 
@@ -216,8 +216,8 @@ h3 {
 div.menu-main-menu-container {
   max-width: 100%;
   margin: 0px auto;
-   background:#63897a;/* dark turquoise */
-   border-radius:8px;
+ background:#63897a;/* dark turquoise */
+ border-radius:8px;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -227,17 +227,15 @@ div.menu-main-menu-container {
 
 #menu-main-menu {
   text-align: center;
-
+  overflow: hidden;
   height:65px;
 }
 
 #menu-main-menu > li {
 
+  font-size: 1.125em;
   display: inline-block;
-  text-align: center;
-  float: left;
-  width: 12%;
-	padding:1.5em 0 1.5em 0;
+  list-style-type: none;
 
 }
 #menu-main-menu ul li:hover {
@@ -245,42 +243,35 @@ div.menu-main-menu-container {
   border-radius:8px;
 
 }
-
-.current_page_item .sub-menu, .current_page_parent .sub-menu {
-  display: block;
-}
-
-#menu-main-menu li.current_page_item a {
-    color:#63897a;/* dark turquoise */
-    color:red;
-}
-#menu-main-menu ul li.current_page_item {
-  background:red;
-}
-
 #menu-main-menu ul li a:hover
 {
   background:white;
   color:black;
   height:30px;
 
+
 }
 
 #menu-main-menu > li a {
-  text-decoration: none;
-  color:white;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  display: block;
+  color: #EEF2DC;
+  padding: 14px 24px;
+
 }
 #menu-main-menu > li a:hover {
+
   background-color:#EEF2DC;
   color:black;
+
 }
+
+
 #menu-main-menu ul.sub-menu {
   text-align: left;
   position: absolute;
   display: none;
-  background-color: rgba(99,137,122,1);
+  background-color: rgba(99,137,122,0.9);
+
   z-index: 20;
 
 }

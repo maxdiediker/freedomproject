@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Freedom Project Home Page</title>
+
+<style>
+
+Body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:100%;
+	background-color:#F3F7DF;
+	
+	}
+	
+	Wrapper {
+		/*width:940px;*/
+		width:80%;
+		max-width:1200px;
+		margin:30px auto;
+		}
+		
+	header {
+		overflow:hidden;
+		max-width:1200px;
+		background-color:#AFBF99;
+		
+		}
+		
+	nav {
+		width:90%;
+		margin:0 auto;
+		height:50px;
+		line-height:50px;
+		background-color:#6E8370;
+		}
+
+		nav ul  {
+			text-align:center;
+		}
+
+		nav ul li.nav  {
+			width:23.33%;
+			float:left;
+			display:inline;
+		}
+		nav ul li.nav a  {
+			text-decoration:none;
+			display:block;
+		}
+		nav ul li.nav a:hover  {
+			color:#FFC;
+			background-color:maroon;
+
+		}
+
+		nav ul li.nav-on  {
+			width:23.33%;
+			float:left;
+			display:inline;
+		}
+
+		nav ul li.nav-on a  {
+			color:#FFC;
+			background-color:maroon;
+		}
+
+		nav ul li.small  {
+			width:15%;
+			float:left;
+			display:inline;
+		}
+		nav ul li.small a  {
+			text-decoration:none;
+			display:block;
+		}
+
+		nav ul li.small a:hover  {
+			color:#FFC;
+			background-color:maroon;
+	
+		}
+
+		nav ul li.small-on  {
+			width:15%;
+			float:left;
+			display:inline;
+		}
+		nav ul li.small-on a  {
+			color:#FFC;
+			background-color:maroon;
+		}
+			
+			
+	#donate{
+		background-color:D87B54;
+		float:right;
+		}		
+	#social {
+		float:right;
+	/*width:220px;*/
+	width:18.404255%;
+	height:100px;
+	/*margin:1.5%;*/
+	padding-right:5%;
+	margin-top:1.5%;
+		
+		}
+		
+		#social li  {
+	display:inline;
+	float:right;
+	margin-left:20px;
+}
+
+#twitter, #facebook  {
+	width:50px;
+	
+}
+		
+	#flexslider {
+		
+		}
+		
+	#main {
+		overflow:hidden;
+		clear:both;
+		float: left;
+		
+		}
+		
+	aside  {
+		/*width:300px;*/
+		width:31.914893%;
+		float:right;
+		border:medium;
+	}
+
+		
+	.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+	
+		
+	footer{
+		/*width:940px;*/
+		width:100%;
+		margin:10px auto 20px auto;
+		background-color:ivory;
+		clear:both;	
+		}
+
+		footer ul  {
+			text-align:center;
+			}
+		footer ul li  {
+			list-style-type:none;
+			display:inline; 
+			padding:0 30px 0 30px; 
+			clear:both;
+			font-size:.875em;
+			}
+
+		footer ul li.bold  {
+			font-weight:bold;
+			list-style-type:none;
+			font-size:.875em;
+			padding-left:20px;
+			}
+
+		footer ul li a {
+			text-decoration:none;
+			}
+		
+				
+
+
+
+</style>
+</head>
+
+<body>
+	<div id="wrapper">
+    	<header>
+        <h1>Freedom Project</h1>
+        	<div id="social">
+            	<li></li>
+                <div id="facebook"></div><!--end facebook div-->
+                <div id="twitter"></div><!--end twitter div-->
+            </div><!--end social div-->  
+            <div id="donate"><img src="../donate.jpg" alt="donate button"></div><!--end donate div-->      
+        </header>
+        
+        
+        <nav> 
+        <ul>
+ <li class="small-on"> <a href="aboutUs.php">About Us</a></li>
+ <li class="small"><a href="whatWeDo.php">What We Do</a></li>
+ <li class="nav"><a href="ourImpact.php">Our Impact</a></li>
+ <li class="nav"><a href="events.php">Events</a></li>
+ <li class="nav"><a href="calender.php">Calender</a></li>
+ <li class="nav"><a href="volunteer.php">Volunteer</a></li>
+ <li class="nav"><a href="blog.php">Blog</a></li>
+ <li class="nav"><a href="contact.php">Contact</a></li>
+ 
+ 
+ </ul>       
+        </nav>
+        
+        
+        <div id="flexslider">
+        </div><!--close flexslider div-->
+        
+        
+        <div id="main">
+        	<div class="contentBox">
+            	<h1>Building Safer Communities</h1>
+                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div><!--end contentBox-->
+            <div id="middleBox">
+            	<h1>Our Mission</h1>
+                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div><!--end middleBox div-->
+            <div class="contentBox">
+            	<h1>What We Do</h1>
+                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div><!--contentBox-->
+        </div><!--close main div-->
+        
+        
+        <div id="aside">
+        <ul>
+        <li>al;skdj</li>
+        <li>;alkjsd</li>
+        <li>alsdkjf</li>
+        <li>;laksdjf</li>
+        </ul>
+        
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div><!--closing aside div-->
+        
+           <div class="section group">
+	<div class="col span_1_of_3">
+	This is column 1
+	</div>
+	<div class="col span_1_of_3">
+	This is column 2
+	</div>
+	<div class="col span_1_of_3">
+	This is column 3
+	</div>
+</div>
+        
+     
+    </div><!--end wrapper tag-->
+    
+ 
+
+        
+        <footer>
+        <ul> 
+<li>Copyright 2015, &copy;</li> 
+<li>All Right Reserved</li> 
+<li><em>SCC Group 2</em></li>
+</ul>
+        </footer>
+        
+        
+
+</body>
+</html>

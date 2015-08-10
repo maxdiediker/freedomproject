@@ -1,8 +1,12 @@
 <?php get_header(); ?>
 
+
+
 <!-- START SIDEBAR -->
 <?php get_sidebar( 'primary' ); ?>
 <!-- END SIDEBAR -->
+
+<?php add_flexslider(); ?>
 
 <div id = "main-single">
   <h3>this is single.php</h3>

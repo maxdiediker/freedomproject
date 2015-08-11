@@ -39,8 +39,8 @@
 	<div class="col span_1_of_3">
 	This is column 3
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus hendrerit metus eget commodo. Morbi at eleifend est, quis auctor mi. Nunc erat purus, auctor a ligula non, elementum porta diam. Donec iaculis lectus non.</p>
-	</div>
-</div>
+	</div><!--End the col span_1_of_3 box-->
+</div><!--End the section group-->
 
 </div>
 <!-- END CONTENT -->

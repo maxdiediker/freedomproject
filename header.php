@@ -11,7 +11,7 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-
+	
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
   	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/media-query.css" type=text/css" />
 

@@ -11,7 +11,7 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-	
+
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
   	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/media-query.css" type=text/css" />
 
@@ -45,13 +45,13 @@
 			<?php wp_nav_menu( array(
 					'theme_location' => 'social-menu' ,
 					'menu' => 'Social Menu' ,
-					'container'  => 'ul',									
+					'container'  => 'ul',
 					) ); ?>
-			
+
 		</div>
 	<!-- social -->
 
-	
+
 
 		<h1>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -74,7 +74,7 @@
 <!-- START NAVIGATION -->
 
 	<div class="jquery-nav">
-				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.jpg"></div></a></h4>
+				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.png"></div></a></h4>
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
 

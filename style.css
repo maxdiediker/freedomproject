@@ -46,7 +46,7 @@ a:hover {
  text-decoration: underline;
 }
 
-ul, 
+ul,
 li {
   list-style:none;
 }
@@ -61,7 +61,7 @@ li {
 
 header{
   background:#a8c3a4;/*med tourquoise*/
-  height:200px;
+  height:135px;
   border-radius: 8px;
   width: 100%;
 }
@@ -74,7 +74,7 @@ header{
 		float: right;
 		max-width: 745px;
     width:76%;
-    margin-top:60px;
+    margin-top:22px;
 }
 
 #main-single{
@@ -101,7 +101,7 @@ header{
 #socialmedia ul li {
   display: inline-block;
   padding: 10px 10px;
-  margin-top: 85px;
+  margin-top: 30px;
 
 }
 
@@ -133,10 +133,10 @@ color:white;
  height: 55px;*/
  float:right;
  background: #E2804F;
- margin-top: 85px;
+ margin-top: 30px;
 }
 
-#donatebtn p {  
+#donatebtn p {
   font-size: 1.6em;
   line-height: 55px;
   text-align: center;
@@ -245,7 +245,7 @@ div.menu-main-menu-container {
   max-width: 100%;
   margin: 0px auto;
  background:#63897a;/* dark turquoise */
-/* border-radius:8px;*/
+ border-radius:8px;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -272,7 +272,7 @@ div.menu-main-menu-container {
   display: block;
   text-decoration: none;
   color: #EEF2DC;
-  padding: 18px 32px;
+  padding: 18px 24px;
   font-size: 1.4em;
 
 }
@@ -280,6 +280,8 @@ div.menu-main-menu-container {
 
   background-color:#EEF2DC;/*eggshell white*/
   color:#63897a;/* dark turquoise */
+  border-bottom:2px solid #f6ead1;
+
 
 }
 
@@ -289,6 +291,7 @@ div.menu-main-menu-container {
   position: absolute;
   display: none;
   background-color: rgba(99,137,122,1);
+  border-radius: 0 0 10px 10px;
   z-index: 20;
 
 }
@@ -325,26 +328,12 @@ div.menu-main-menu-container {
 @media all and (min-width:800px) and (max-width:1200px)
 
 {
-  #menu-main-menu > li a {
-
-    padding: 14px 14px;
-
-
-  }
-
-  div#header h1 {
-
-    font-size:40pt;
-
-
-  }
-
-  div#header img {
-
-    left:-170px;
-  }
+  ul#menu-main-menu.menu > li a {
+    padding: 21px 6px;
 }
-
+ul#menu-main-menu.menu > li  {
+border-right: 1px solid red;
+}
 
 
 @media all and (min-width:400px) and (max-width:800px)
@@ -405,8 +394,9 @@ div.menu-main-menu-container {
 
   .jquery-nav {
 
-    background-color:#2B621D;/*stupid green*/
+
     background:#63897a;/* dark turquoise */
+    background: purple;
 
 
 
@@ -438,47 +428,7 @@ div.menu-main-menu-container {
 
   }
 
-  div#welcome{
-    clear:both;
-    width:97.916667%;
-    margin-left:1.0638295%;
 
-    margin-top:10px;
-    height:200px;
-    margin-bottom:20px;
-    overflow:hidden;
-
-
-  }
-  div#welcome h3 {
-    padding-top:5px;
-
-    text-align:left;
-    padding-left:2%;
-    padding-bottom:10px;
-
-  }
-  div#welcome p {
-
-    padding:0 2% 0 2%;
-
-  }
-
-  div#flexslider
-  {
-    width:97.916667%;
-    margin-left:1.0638295%;
-    height:500px;
-
-    clear:both;
-    margin-bottom:20px;
-    float:left;
-  }
-  /*#button-container1, ul#button-list1, ul#button-list1 li, ul#button-list1 li a, #button-one p, #button-two p, #button-three p, #button-container1>ul#button-list1 li a, ul#button-list1 li#active a, ul#button-list1 li a:hover, ul#button-list1 li#active a:hover   {
-  margin:0;
-  padding:0;
-}
-*/
 
 #button-container1
 {
@@ -486,7 +436,7 @@ div.menu-main-menu-container {
   width: 45%;
   margin-left:1.0638295%;
   height:340px;
-  background-color:#B9D59D;
+  background-color:yellow;
   margin-top:20px;
   clear:both;
   float:left;
@@ -538,18 +488,16 @@ ul#button-list1 li a
 
 ul#button-list1 li#active a
 {
-  background: #f0e7d7;
+  background: blue;
   color: #800000;
 }
 
 ul#button-list1 li a:hover, ul#button-list1 li#active a:hover
 {
   color:black;
-  background-color:#EEF2DC;
+  background-color:orange;
   border-color: #aaab9c #fff #fff #ccc;
 }
-
-
 
 
 #button-container2
@@ -560,25 +508,12 @@ ul#button-list1 li a:hover, ul#button-list1 li#active a:hover
   height:340px;
 }
 
-
-
-
-
-
-
 /* page.php */
 #pagecontent {
   width:68.468085%;
-
 }
-
 #primarypagesidebar {
   width:28.404255%;
-
-
 }
-
-
-
 
 }

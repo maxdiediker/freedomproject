@@ -89,6 +89,7 @@
 	}
 
 	.jquery-title {
+		  background:#63897a;/* dark turquoise */
 		padding: 14px 24px;
 		font-size: 1.125em;
 		display:inherit;
@@ -307,4 +308,3 @@ footer div img {
 
 
 }
-

@@ -64,7 +64,7 @@
 
 	<!-- innerheader -->
 	<div id ="donatebtn">
-		<h3>Donate</h3>
+		<p>Donate</p>
 		<!-- <img src = "images/donate.png" alt="donate button"> -->
 	</div>
 

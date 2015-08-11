@@ -23,6 +23,12 @@ Description:Custom theme for Seattle non-profit http://freedomprojectseattle.org
 
 /* ------------RESETS----------------------- */
 
+
+html {
+background-color:#FFFBF4;
+}
+
+
 body, body * {
   margin: 0;
   padding: 0;
@@ -31,15 +37,31 @@ body, body * {
   box-sizing: border-box;
 }
 
+a{
+ text-decoration: none;
+ color:inherit;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+ul, 
+li {
+  list-style:none;
+}
+
+
+
 /* ------------END RESETS----------------------- */
 #wrapper{
   max-width:1200px;
   margin:auto;
-  background:none;
+  background:#FFFBF4;
 }
 
 header{
-  background:#a8c3a4;/*med tourquoise*/
+  background:#B4C7A8;
   height:200px;
   border-radius: 8px;
   width: 100%;
@@ -75,6 +97,7 @@ header{
 #socialmedia ul {
   display: inline;
   width:24%;
+  margin:55px;
 }
 
 #socialmedia ul li {
@@ -108,12 +131,22 @@ overflow: hidden;
 /* ---------------- END SOCIAL MEDIA -------------------- */
 #donatebtn {
 color:white;
- /*width: 175px;
- height: 55px;*/
+ width: 175px;
+ height: 55px;
  float:right;
+ border-radius:20px;
  background: #E2804F;
  margin-top: 85px;
 }
+
+#donatebtn p {  
+  font-size: 1.6em;
+  line-height: 55px;
+  text-align: center;
+}
+
+
+
 #main{
   border-radius:8px;
   width: 780px;
@@ -132,11 +165,11 @@ color:white;
   border-radius:8px;
   width: 780px;
   float:left;
-  background:#d7ead0;/*light tourquoise*/
+ 
 }
 #content.page{
   border-radius:8px;
-  background: #CEF6CE;
+ 
 }
 
 /* ---------------- END CONTENT -------------------- */
@@ -147,8 +180,9 @@ footer{
   clear:both;
   height: 100px;
   width:100%;
-  background:#00FF80;
-}
+  }
+
+  
 /* ---------------- END FOOTER -------------------- */
 
 /* ---------------SIDEBAR TEXT STYLES----------- */
@@ -156,7 +190,9 @@ footer{
   clear:both;
   float:right;
   width:380px;
-  background:none;
+  margin: 45px 0px 30px 0px ;
+  border-radius: 20px;
+  background:#B4C7A8;
 }
 
 #primary p, #secondary p{
@@ -179,9 +215,9 @@ padding-left: 10px;
 
   #primary h3 {
 	font-size: 1.3em;
-	color:antiquewhite;
+	color:#FFFBF4;
 	font-variant: none;
-    background:#63897a;/* dark turquoise */
+   
 	}
   /* ---------------END SIDEBAR TEXT STYLES----------- */
     /* ---------------start headline  STYLES----------- */
@@ -191,9 +227,8 @@ h3 {
   line-height:1.3em;
   padding:1.1em;
   clear: both;
-
-
-  }
+  color:#688B7A;
+}
 
 
 
@@ -217,7 +252,7 @@ div.menu-main-menu-container {
   max-width: 100%;
   margin: 0px auto;
  background:#63897a;/* dark turquoise */
- border-radius:8px;
+ /*border-radius:8px; */
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -243,10 +278,11 @@ div.menu-main-menu-container {
   border-radius:8px;
 
 }
+
 #menu-main-menu ul li a:hover
 {
-  background:white;
-  color:black;
+  background:#63897a;
+  color:#EEF2DC;
   height:30px;
 
 

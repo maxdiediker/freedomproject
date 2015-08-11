@@ -1,4 +1,3 @@
-
 /*
 Theme Name: freedomproject
 Theme URI: http://freedomproject.stephineanne.com/themes/twentyfifteen/
@@ -23,12 +22,6 @@ Description:Custom theme for Seattle non-profit http://freedomprojectseattle.org
 
 /* ------------RESETS----------------------- */
 
-
-html {
-background-color:#FFFBF4;
-}
-
-
 body, body * {
   margin: 0;
   padding: 0;
@@ -37,31 +30,15 @@ body, body * {
   box-sizing: border-box;
 }
 
-a{
- text-decoration: none;
- color:inherit;
-}
-
-a:hover {
- text-decoration: underline;
-}
-
-ul, 
-li {
-  list-style:none;
-}
-
-
-
 /* ------------END RESETS----------------------- */
 #wrapper{
   max-width:1200px;
   margin:auto;
-  background:#FFFBF4;
+  background:none;
 }
 
 header{
-  background:#B4C7A8;
+  background:#a8c3a4;/*med tourquoise*/
   height:200px;
   border-radius: 8px;
   width: 100%;
@@ -97,7 +74,6 @@ header{
 #socialmedia ul {
   display: inline;
   width:24%;
-  margin:55px;
 }
 
 #socialmedia ul li {
@@ -131,22 +107,12 @@ overflow: hidden;
 /* ---------------- END SOCIAL MEDIA -------------------- */
 #donatebtn {
 color:white;
- width: 175px;
- height: 55px;
+ /*width: 175px;
+ height: 55px;*/
  float:right;
- border-radius:20px;
  background: #E2804F;
  margin-top: 85px;
 }
-
-#donatebtn p {  
-  font-size: 1.6em;
-  line-height: 55px;
-  text-align: center;
-}
-
-
-
 #main{
   border-radius:8px;
   width: 780px;
@@ -165,11 +131,11 @@ color:white;
   border-radius:8px;
   width: 780px;
   float:left;
- 
+  background:#d7ead0;/*light tourquoise*/
 }
 #content.page{
   border-radius:8px;
- 
+  background: #CEF6CE;
 }
 
 /* ---------------- END CONTENT -------------------- */
@@ -180,9 +146,8 @@ footer{
   clear:both;
   height: 100px;
   width:100%;
-  }
-
-  
+  background:#00FF80;
+}
 /* ---------------- END FOOTER -------------------- */
 
 /* ---------------SIDEBAR TEXT STYLES----------- */
@@ -190,9 +155,7 @@ footer{
   clear:both;
   float:right;
   width:380px;
-  margin: 45px 0px 30px 0px ;
-  border-radius: 20px;
-  background:#B4C7A8;
+  background:none;
 }
 
 #primary p, #secondary p{
@@ -215,9 +178,9 @@ padding-left: 10px;
 
   #primary h3 {
 	font-size: 1.3em;
-	color:#FFFBF4;
+	color:antiquewhite;
 	font-variant: none;
-   
+    background:#63897a;/* dark turquoise */
 	}
   /* ---------------END SIDEBAR TEXT STYLES----------- */
     /* ---------------start headline  STYLES----------- */
@@ -227,8 +190,9 @@ h3 {
   line-height:1.3em;
   padding:1.1em;
   clear: both;
-  color:#688B7A;
-}
+
+
+  }
 
 
 
@@ -252,7 +216,7 @@ div.menu-main-menu-container {
   max-width: 100%;
   margin: 0px auto;
  background:#63897a;/* dark turquoise */
- /*border-radius:8px; */
+ border-radius:8px;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -273,31 +237,20 @@ div.menu-main-menu-container {
   list-style-type: none;
 
 }
-#menu-main-menu ul li:hover {
 
-  border-radius:8px;
-
-}
-
-#menu-main-menu ul li a:hover
-{
-  background:#63897a;
-  color:#EEF2DC;
-  height:30px;
-
-
-}
 
 #menu-main-menu > li a {
   display: block;
+  text-decoration: none;
   color: #EEF2DC;
-  padding: 14px 24px;
+  padding: 18px 32px;
+  font-size: 1.4em;
 
 }
 #menu-main-menu > li a:hover {
 
-  background-color:#EEF2DC;
-  color:black;
+  background-color:#EEF2DC;/*eggshell white*/
+  color:#63897a;/* dark turquoise */
 
 }
 
@@ -306,19 +259,21 @@ div.menu-main-menu-container {
   text-align: left;
   position: absolute;
   display: none;
-  background-color: rgba(99,137,122,0.9);
-
+  background-color: rgba(99,137,122,1);
   z-index: 20;
 
 }
 
-#menu-main-menu ul.sub-menu li {
+#menu-main-menu ul.sub-menu > li {
   display: block;
+  border-bottom: 1px solid #EEF2DC;/*eggshell white*/
   float: none;
-  font-size: 1em;
+
 }
 
 #menu-main-menu ul.sub-menu li a {
+  padding: 12px 12px;
+
 
 }
 
@@ -363,7 +318,7 @@ div.menu-main-menu-container {
 
 
 
-@media all and (min-width:500px) and (max-width:800px)
+@media all and (min-width:400px) and (max-width:800px)
 {
   /* front-page.php */
   div#wrapper{
@@ -396,10 +351,11 @@ div.menu-main-menu-container {
 
   }
 
-
+/*drop down mobile bg*/
   .jquery-nav li {
     float: none;
     display: block;
+    background:color:#63897a;/* dark turquoise */
 
 
 
@@ -576,56 +532,7 @@ ul#button-list1 li a:hover, ul#button-list1 li#active a:hover
 }
 
 
-#button-six
-{
-  background-color:transparent;
 
-}
-
-
-div#testimonials
-{
-
-  width:98%;
-}
-
-div#ads
-{
-
-  height:100px;
-}
-
-#amazon-smile, #volunteer-match, #shop-with-scrip
-{
-  height:100px;
-}
-.ads
-{
-  margin-top:5%;
-
-}
-
-
-
-footer {
-  font-size:.85em;
-
-
-}
-footer div img {
-  width:100px !important;
-  height:85px !important;
-}
-
-#footer2 {
-  font-size:.8em;
-
-}
-#copyright {
-
-  margin-left:3%;
-}
-/* End front-page */
 
 
 

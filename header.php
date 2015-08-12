@@ -15,9 +15,7 @@
 @import url(<?php bloginfo('stylesheet_directory'); ?>/media-query.css);
 </style
 
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
 
-  	/*<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/media-query.css" type=text/css" />*/
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico" />
@@ -83,6 +81,18 @@
 			</div>
 
 <!-- END NAVIGATION -->
-
+/*START MOBILE SOCIAL*/
+<div id = "social-m">
+	<div class = "twitter">
+<a href = "google.com">social</a>
+	</div>
+	<div class = "twitter">
+<a href="http://www.w3schools.com/html/html_links.asp">2</a>
+</div>
+</div>
+<div id = "donate-m">
+	<a>donate</a>
+</div>
+/*END MOBILE SOCIAL*/
 <!-- START MIDDLE -->
 <div id="middle">

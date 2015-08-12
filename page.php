@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-<!-- START SIDEBAR -->
-<?php get_sidebar( 'primary' ); ?>
-<!-- END SIDEBAR -->
 
 <!-- START CONTENT -->
 <div id="content" class="page">
@@ -10,10 +7,13 @@
 	<div id="post-<?php the_ID(); ?>">
         <h2><?php the_title(); ?></h2>
 		<?php the_content('<p class="serif">More &raquo;</p>'); ?>
-      
+
 	</div>
 
 	<?php endwhile; endif; ?>
+	<!-- START SIDEBAR -->
+	<?php get_sidebar( 'primary' ); ?>
+	<!-- END SIDEBAR -->
 
 </div>
 <!-- END CONTENT -->

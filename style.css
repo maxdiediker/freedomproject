@@ -146,6 +146,7 @@ color:white;
   border-radius:8px;
   width: 780px;
   background: #F6E3CE;
+  color:#688B7A;
 }
 .excerpt-peach{
   border-radius: 8px;
@@ -184,7 +185,9 @@ footer{
   clear:both;
   float:right;
   width:380px;
-  background:none;
+  margin: 45px 0px 30px 0px ;
+  border-radius: 20px;
+  background:#B4C7A8;
 }
 
 #primary p, #secondary p{

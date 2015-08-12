@@ -27,15 +27,14 @@ html {
 background-color:#FFFBF4;
 }
 
-
 body, body * {
   margin: 0;
   padding: 0;
 }
+
 * {
   box-sizing: border-box;
 }
-
 
 a{
  text-decoration: none;
@@ -56,12 +55,12 @@ li {
 #wrapper{
   max-width:1200px;
   margin:auto;
-  background:none;
+  background:#FFFBF4;
 }
 
 header{
-  background:#a8c3a4;/*med tourquoise*/
-  height:135px;
+  background:#B4C7A8;
+  height:200px;
   border-radius: 8px;
   width: 100%;
 }
@@ -71,14 +70,14 @@ header{
 }
 
 #logo {
-		float: right;
-		max-width: 745px;
+    float: right;
+    max-width: 745px;
     width:76%;
     margin-top:22px;
 }
 
 #main-single{
-  background: green;
+  background: none;
 }
 
 /* ----------------  BEGIN NAV-MAIN ----------------- */
@@ -96,12 +95,13 @@ header{
 #socialmedia ul {
   display: inline;
   width:24%;
+  margin:55px;  
 }
 
 #socialmedia ul li {
   display: inline-block;
   padding: 10px 10px;
-  margin-top: 30px;
+  margin-top: 85px;
 
 }
 
@@ -129,11 +129,12 @@ overflow: hidden;
 /* ---------------- END SOCIAL MEDIA -------------------- */
 #donatebtn {
 color:white;
- /*width: 175px;
- height: 55px;*/
+ width: 175px;
+ height: 55px;
  float:right;
+ border-radius:20px;
  background: #E2804F;
- margin-top: 30px;
+ margin-top: 85px;
 }
 
 #donatebtn p {
@@ -146,8 +147,8 @@ color:white;
   border-radius:8px;
   width: 780px;
   background: #F6E3CE;
-  color:#688B7A;
 }
+
 .excerpt-peach{
   border-radius: 8px;
   background: #f6ead1;/*light peach */
@@ -161,11 +162,9 @@ color:white;
   border-radius:8px;
   width: 780px;
   float:left;
-  background:#d7ead0;/*light tourquoise*/
 }
 #content.page{
   border-radius:8px;
-  background: #CEF6CE;
 }
 
 /* ---------------- END CONTENT -------------------- */
@@ -176,7 +175,6 @@ footer{
   clear:both;
   height: 100px;
   width:100%;
-  background:#00FF80;
 }
 /* ---------------- END FOOTER -------------------- */
 
@@ -191,12 +189,11 @@ footer{
 }
 
 #primary p, #secondary p{
-		margin:1.3em 15px;
+	margin:1.3em 15px;
 }
 
 #secondary img, #primary img{
  margin-top:10px;
- margin-left:auto;
  margin-left:auto;
 }
 
@@ -208,13 +205,14 @@ padding-left: 10px;
 
   }
 
-  #primary h3 {
-	font-size: 1.3em;
-	color:antiquewhite;
-	font-variant: none;
-    background:#63897a;/* dark turquoise */
-	}
+#primary h3 {
+    font-size: 1.3em;
+    color:#FFFBF4;
+    font-variant: none;
+    }
+
   /* ---------------END SIDEBAR TEXT STYLES----------- */
+
     /* ---------------start headline  STYLES----------- */
 
 h3 {

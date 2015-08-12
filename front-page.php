@@ -8,6 +8,16 @@
 <div id="content" class="page">
 	
     <div id="flexslider">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
+<script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+	$(window).load(function(){
+		$('.flexslider').flexslider({
+			animation: "fade",
+			slideshow: false,
+			 });
+			 })
+			 </script>
         </div><!--close flexslider div-->
         
         <div id="main">
@@ -25,18 +35,18 @@
             </div><!--contentBox-->
         </div><!--close main div-->
         
-        <div class="section group">
+        <div id="section">
 	<div class="col span_1_of_3">
 	This is column 1
     
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus hendrerit metus eget commodo. Morbi at eleifend est, quis auctor mi. Nunc erat purus, auctor a ligula non, elementum porta diam. Donec iaculis lectus non.</p>
 	</div>
-	<div class="col span_1_of_3">
+	<div class="col span_2_of_3">
 	This is column 2
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus hendrerit metus eget commodo. Morbi at eleifend est, quis auctor mi. Nunc erat purus, auctor a ligula non, elementum porta diam. Donec iaculis lectus non.</p>
     
 	</div>
-	<div class="col span_1_of_3">
+	<div class="col span_3_of_3">
 	This is column 3
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus hendrerit metus eget commodo. Morbi at eleifend est, quis auctor mi. Nunc erat purus, auctor a ligula non, elementum porta diam. Donec iaculis lectus non.</p>
 	</div><!--End the col span_1_of_3 box-->

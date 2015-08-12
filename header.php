@@ -17,16 +17,6 @@
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
-<script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
-<script type="text/javascript">
-	$(window).load(function(){
-		$('.flexslider').flexslider({
-			animation: "fade",
-			slideshow: false,
-			 });
-			 })
-			 </script>
 
 	  <?php /*?> Always have wp_head() inside the </head> tag
 	   of your theme. Many plugins use this hook to add elements

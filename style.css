@@ -167,6 +167,39 @@ color:white;
   background: #CEF6CE;
 }
 
+#section{
+	width:100%;
+	}
+	
+	.contentBox{
+		border:5px solid #5B8B2F;
+		padding:20px;
+		width:100%;
+		border-radius:10px;
+		}
+		
+		#middleBox{
+		border:5px solid #5B8B2F;
+		padding:20px;
+		width:100%;
+		border-radius:10px;
+		}
+	
+	.col span_1_of_3{
+		float:left;
+		
+		}
+		
+	.col span_2_of_3{
+		float:center;
+		
+		}
+	.col span_3_of_3{
+		float:right;
+		
+		}	
+		
+
 /* ---------------- END CONTENT -------------------- */
 
 /* ---------------- BEGIN FOOTER -------------------- */

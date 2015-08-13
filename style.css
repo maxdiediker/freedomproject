@@ -113,6 +113,11 @@ li {
 
 }
 
+.testimonial_body p {
+    color:#FFFBF4;
+    font-weight:  bold;
+}
+
 /* ------------END Typography----------------------- */
 
 #wrapper{

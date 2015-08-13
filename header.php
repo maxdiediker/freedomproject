@@ -78,7 +78,6 @@
 <a href = "google.com">social</a>
 	</div>
 	<div class = "twitter">
-<a href="http://www.w3schools.com/html/html_links.asp">2</a>
 </div>
 </div>
 <div id = "donate-m">

@@ -3,7 +3,11 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="initial-scale=1">
-
+<!--Flexslider-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="scripts/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="flexslider.css" type="text/css";>
+<!--End Flexslider-->
 	<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
 
 <!-- Remy Sharp Shim -->
@@ -17,7 +21,7 @@
 
 
 
-	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	><link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico" />
 
 	  <?php /*?> Always have wp_head() inside the </head> tag

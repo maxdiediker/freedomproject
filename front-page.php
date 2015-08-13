@@ -14,9 +14,9 @@
 			 </script>
 <!--END FLEXSLIDER-->
 <!-- START CONTENT -->
-<div id="content" class="page">
+<div id="content" class="home-content page">
         
-        <div id="main">
+        <div id="main" class="home-content">
         	<div class="contentBox">
             	<h1>Building Safer Communities</h1>
                 <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>

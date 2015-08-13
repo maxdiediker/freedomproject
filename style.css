@@ -121,7 +121,9 @@ li {
 .widget li,
 .text-widget {
     font-size: 1.4em;
+    line-height: 1.5em;
 }
+
 
 /* ------------END Typography----------------------- */
 
@@ -165,7 +167,8 @@ li {
   border-radius:8px;
 }
 
-.home > #content {
+#main.home-content,
+#content.home-content {
     width:100%;
 }
 
@@ -211,7 +214,6 @@ padding-left: 10px;
   }
 
 #primary h3 {
-    font-size: 1.3em;
     color:#FFFBF4;
     font-variant: none;
     }

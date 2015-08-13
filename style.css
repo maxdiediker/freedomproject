@@ -906,7 +906,7 @@ a:hover {
  text-decoration: underline;
 }
 
-ul, 
+ul,
 li {
   list-style:none;
 }
@@ -919,24 +919,6 @@ li {
   background:none;
 }
 
-header{
-  background:#a8c3a4;/*med tourquoise*/
-  height:200px;
-  border-radius: 8px;
-  width: 100%;
-}
-#innerheader{
-  float:left;
-  width:82%;
-}
-
-#logo {
-		float: right;
-		max-width: 745px;
-    width:76%;
-    margin-top:60px;
-}
-
 #main-single{
   background: green;
 }
@@ -946,61 +928,6 @@ header{
 
 
 /* ---------------- END NAV-MAIN -------------------- */
-
-/* ---------------- BEGIN SOCIAL MEDIA -------------------- */
-#socialmedia {
-  list-style:none;
-  float:left;
-}
-
-#socialmedia ul {
-  display: inline;
-  width:24%;
-}
-
-#socialmedia ul li {
-  display: inline-block;
-  padding: 10px 10px;
-  margin-top: 85px;
-
-}
-
-#socialmedia a {
-display:block;
-width:40px;
-height:40px;
-background-repeat: no-repeat;
-background-size: cover;
-text-indent: 100%;
-white-space: nowrap;
-overflow: hidden;
-}
-
-.twitter a {
-  display:block;
-  background-image:url('images/twitter.png');
-}
-.facebook a {
-  display:block;
-  background-image:url('images/facebook.png');
-}
-
-
-/* ---------------- END SOCIAL MEDIA -------------------- */
-#donatebtn {
-color:white;
- /*width: 175px;
- height: 55px;*/
- float:right;
- background: #E2804F;
- margin-top: 85px;
-}
-
-#donatebtn p {  
-  font-size: 1.6em;
-  line-height: 55px;
-  text-align: center;
-}
 
 #main{
   border-radius:8px;
@@ -1030,35 +957,35 @@ color:white;
 #section{
 	width:100%;
 	}
-	
+
 	.contentBox{
 		border:5px solid #5B8B2F;
 		padding:20px;
 		width:100%;
 		border-radius:10px;
 		}
-		
+
 		#middleBox{
 		border:5px solid #5B8B2F;
 		padding:20px;
 		width:100%;
 		border-radius:10px;
 		}
-	
+
 	.col span_1_of_3{
 		float:left;
-		
+
 		}
-		
+
 	.col span_2_of_3{
 		float:center;
-		
+
 		}
 	.col span_3_of_3{
 		float:right;
-		
-		}	
-		
+
+		}
+
 
 /* ---------------- END CONTENT -------------------- */
 
@@ -1574,7 +1501,7 @@ header{
 #socialmedia ul {
   display: inline;
   width:24%;
-  margin:55px;  
+  margin:55px;
 }
 
 #socialmedia ul li {

@@ -71,7 +71,7 @@
 			</div>
 
 <!-- END NAVIGATION -->
-/*START MOBILE SOCIAL*/
+
 <div id = "social-m">
 	<div class = "twitter">
 <a href = "google.com">social</a>
@@ -83,6 +83,6 @@
 <div id = "donate-m">
 	<a>donate</a>
 </div>
-/*END MOBILE SOCIAL*/
+
 <!-- START MIDDLE -->
 <div id="middle">

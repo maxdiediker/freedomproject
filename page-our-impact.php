@@ -3,7 +3,7 @@
 <!-- START SIDEBAR -->
 <?php get_sidebar('primary'); ?>
 <!-- END SIDEBAR -->
-<h2>What We Do</h2>
+<h2>Our Work</h2>
 
         <div id="content" class=".excerpt-peach">
 

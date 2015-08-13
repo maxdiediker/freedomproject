@@ -6,6 +6,7 @@
 
 
         <div id="content" class="excerpt-peach">
+
             <?php get_child_pages(); ?>
 
 </div><!-- END CONTENT -->

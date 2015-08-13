@@ -3,9 +3,10 @@
 <!-- START SIDEBAR -->
 <?php get_sidebar('primary'); ?>
 <!-- END SIDEBAR -->
+<h2>Our Work</h2>
 
+        <div id="content" class=".excerpt-peach">
 
-        <div id="content" class="excerpt-peach">
             <?php get_child_pages(); ?>
 
 </div><!-- END CONTENT -->

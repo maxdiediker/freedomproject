@@ -3,6 +3,8 @@
 <!-- START SIDEBAR -->
 <?php get_sidebar( 'primary' ); ?>
 <!-- END SIDEBAR -->
+
+<!--START FLEXSLIDER-->
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
 <script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
     <script type="text/javascript">
@@ -13,6 +15,7 @@
 			 });
 			 })
 			 </script>
+<!--END FLEXSLIDER-->
 <!-- START CONTENT -->
 <div id="content" class="page">
 	

@@ -118,7 +118,8 @@ li {
     font-weight:  bold;
 }
 
-.widget li {
+.widget li,
+.text-widget {
     font-size: 1.4em;
 }
 

@@ -206,10 +206,11 @@ color:white;
 /* ---------------- BEGIN FOOTER -------------------- */
 
 footer{
+  text-align: center;
+  color:#688B7A;
   clear:both;
   height: 100px;
   width:100%;
-  background:#00FF80;
 }
 /* ---------------- END FOOTER -------------------- */
 

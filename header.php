@@ -13,7 +13,7 @@
 <style type="text/css" media="screen">
 @import url( <?php bloginfo('stylesheet_url'); ?> );
 @import url(<?php bloginfo('stylesheet_directory'); ?>/media-query.css);
-</style
+</style>
 
 
 
@@ -45,12 +45,12 @@
 
 
 
-		<h1>
+		<div>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="freedom logo" id="logo"/>
 			<!-- for screen readers -->
 
-		</h1>
+		</div>
 
 	</div>
 

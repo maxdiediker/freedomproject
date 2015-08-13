@@ -181,13 +181,8 @@ border-radius:10px;
 	}
 	ul#menu-main-menu.menu > li  {
 	border-right: 1px solid green;
-
 	}
-
-
 }
-
-
 
 @media all and (min-width:500px) and (max-width:800px)
 {

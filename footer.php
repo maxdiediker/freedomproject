@@ -5,10 +5,7 @@
 <footer>
 		<p><?php print ("&copy; " . date ('Y') . " "); ?>
         <ul> 
-<li>Copyright 2015, &copy;</li> 
-<li>All Right Reserved</li> 
-<li><em>SCC Group 2</em></li>
-<li>Powered by <a href="http://www.wordpress.org/" target="_blank">WordPress</a></li>
+<li>&copy; Copyright 2015 . Freedom Project . Design by SCC Group 2</li>
 </ul> <?php wp_loginout(); ?>.</p>
 </footer>
 

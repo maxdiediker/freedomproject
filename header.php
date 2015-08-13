@@ -10,10 +10,12 @@
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+<style type="text/css" media="screen">
+@import url( <?php bloginfo('stylesheet_url'); ?> );
+@import url(<?php bloginfo('stylesheet_directory'); ?>/media-query.css);
+</style
 
-	
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
-  	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/media-query.css" type=text/css" />
+
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico" />
@@ -35,13 +37,13 @@
 			<?php wp_nav_menu( array(
 					'theme_location' => 'social-menu' ,
 					'menu' => 'Social Menu' ,
-					'container'  => 'ul',									
+					'container'  => 'ul',
 					) ); ?>
-			
+
 		</div>
 	<!-- social -->
 
-	
+
 
 		<h1>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -64,11 +66,23 @@
 <!-- START NAVIGATION -->
 
 	<div class="jquery-nav">
-				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.jpg"></div></a></h4>
+				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.png"></div></a></h4>
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
 
 <!-- END NAVIGATION -->
-
+/*START MOBILE SOCIAL*/
+<div id = "social-m">
+	<div class = "twitter">
+<a href = "google.com">social</a>
+	</div>
+	<div class = "twitter">
+<a href="http://www.w3schools.com/html/html_links.asp">2</a>
+</div>
+</div>
+<div id = "donate-m">
+	<a>donate</a>
+</div>
+/*END MOBILE SOCIAL*/
 <!-- START MIDDLE -->
 <div id="middle">

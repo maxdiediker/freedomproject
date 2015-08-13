@@ -6,7 +6,7 @@
 <!--Flexslider-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="scripts/jquery.flexslider.js"></script>
-<link rel="stylesheet" href="flexslider.css" type="text/css";>
+<link rel="stylesheet" href="flexslider.css" type="text/css">
 <!--End Flexslider-->
 	<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
 

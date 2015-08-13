@@ -86,7 +86,6 @@ h2,
 h3 {
     font-family: 'amble', sans-serif;
     padding:10px;
-    clear: both;
     color:#688B7A;    
 }
 
@@ -109,7 +108,7 @@ h3 {
   font-size: 1.875em;
 }
 
-.menu li {
+li {
     font-family: 'amble', sans-serif;
 
 }
@@ -148,7 +147,7 @@ h3 {
 
 #content{
   border-radius:8px;
-  width: 780px;
+  width: 760px;
   float:left;
 }
 #content.page{

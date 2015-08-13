@@ -113,24 +113,6 @@ li {
 
 }
 
-.testimonial_body p {
-    color:#FFFBF4;
-    font-weight:  bold;
-}
-
-.widget li,
-.text-widget {
-    font-size: 1.4em;
-    line-height: 1.5em;
-}
-
-#primary li.widget_recent_entries ul li,
-#secondary li.widget_recent_entries ul li {
-    list-style-type: disc;
-    margin-left:25px;
-}
-
-
 /* ------------END Typography----------------------- */
 
 #wrapper{
@@ -226,6 +208,28 @@ padding-left: 10px;
     
 .widget-title {
     text-align:center;
+}
+
+
+.testimonial_body p {
+    color:#FFFBF4;
+    font-weight:  bold;
+}
+
+.testimonial_author {
+    display:none;
+}
+
+.widget li,
+.text-widget {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+#primary li.widget_recent_entries ul li,
+#secondary li.widget_recent_entries ul li {
+    list-style-type: disc;
+    margin-left:25px;
 }
 
   /* ---------------END SIDEBAR TEXT STYLES----------- */

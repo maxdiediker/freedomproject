@@ -124,6 +124,12 @@ li {
     line-height: 1.5em;
 }
 
+#primary li.widget_recent_entries ul li,
+#secondary li.widget_recent_entries ul li {
+    list-style-type: disc;
+    margin-left:25px;
+}
+
 
 /* ------------END Typography----------------------- */
 

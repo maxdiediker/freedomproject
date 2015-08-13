@@ -18,10 +18,6 @@
 <!--END FLEXSLIDER-->
 <!-- START CONTENT -->
 <div id="content" class="page">
-	
-    <div id="flexslider">
-    
-        </div><!--close flexslider div-->
         
         <div id="main">
         	<div class="contentBox">

@@ -5,7 +5,7 @@
 <!-- END SIDEBAR -->
 
 
-        <div id="content" class="excerpt-peach">
+        <div id="content">
 
             <?php get_child_pages(); ?>
 

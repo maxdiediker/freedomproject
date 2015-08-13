@@ -1,7 +1,7 @@
 
 header{
   background:#a8c3a4;/*med tourquoise*/
-  height:135px;
+  height:200px;
   border-radius: 8px;
   width: 100%;
 }
@@ -58,12 +58,13 @@ overflow: hidden;
 
 /* ---------------- END SOCIAL MEDIA -------------------- */
 #donatebtn {
-color:white;
- /*width: 175px;
- height: 55px;*/
- float:right;
- background: #E2804F;
- margin-top: 30px;
+  color:white;
+   width: 175px;
+   height: 55px;
+   float:right;
+   border-radius:20px;
+   background: #E2804F;
+   margin-top: 85px;
 }
 
 #donatebtn p {

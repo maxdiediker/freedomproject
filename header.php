@@ -55,9 +55,10 @@
 	</div>
 
 	<!-- innerheader -->
-	<div id ="donatebtn">
-		<p>Donate</p>
+        <div id ="donatebtn">
+		<a href="https://secure.lglforms.com/form_engine/s/3ZhDsGvDyJsI1F2W50Dv3g" target="_blank"><p>Donate</p></a>
 		<!-- <img src = "images/donate.png" alt="donate button"> -->
+		
 	</div>
 
 

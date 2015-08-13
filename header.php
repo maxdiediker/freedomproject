@@ -21,7 +21,7 @@
 
 
 
-	><link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico" />
 
 	  <?php /*?> Always have wp_head() inside the </head> tag

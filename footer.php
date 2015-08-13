@@ -3,10 +3,12 @@
 
 
 <footer>
-		<p><?php print ("&copy; " . date ('Y') . " "); ?>
-        <ul> 
-<li>&copy; Copyright 2015 . Freedom Project . Design by SCC Group 2</li>
-</ul> <?php wp_loginout(); ?>.</p>
+    <p>
+    <ul> 
+        <li><?php print ("&copy; " . date ('Y') . " "); ?> . Freedom Project . Design by SCC Group 2</li>
+    </ul> 
+        <?php wp_loginout(); ?>
+    </p>
 </footer>
 
 </div><!-- END WRAPPER -->

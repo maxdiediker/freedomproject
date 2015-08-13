@@ -1,5 +1,38 @@
 <?php
 
+
+
+function add_flexslider() { // display attachment images as a flexslider gallery on single posting
+     
+    global $post; // don't forget to make this a global variable inside your function
+    
+    $attachments = get_children(array('post_parent' => $post->ID, 'order' => 'ASC', 'orderby' => 'menu_order', 'post_type' => 'attachment', 'post_mime_type' => 'image', ));
+    
+    if ($attachments) { // if there are images attached to posting, start the flexslider markup
+        
+        echo '<div class="flexslider">';
+        echo '<ul class="slides">';
+    
+        foreach ( $attachments as $attachment_id => $attachment ) { // create the list items for images with captions
+        
+            echo '<li>';
+            echo wp_get_attachment_image($attachment_id, 'large');
+            echo '<p>';
+            echo get_post_field('post_excerpt', $attachment->ID);
+            echo '</p>';
+            echo '</li>';
+            
+        }
+    
+        echo '</ul>';
+        echo '</div>';
+        
+    } // end see if images
+    
+} // end add flexslider
+
+
+
 // support HTML5 semantic markup
 $args = array(
 	'search-form',

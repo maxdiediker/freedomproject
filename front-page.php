@@ -3,12 +3,7 @@
 <!-- START SIDEBAR -->
 <?php get_sidebar( 'primary' ); ?>
 <!-- END SIDEBAR -->
-
-<!-- START CONTENT -->
-<div id="content" class="page">
-	
-    <div id="flexslider">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
 <script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
     <script type="text/javascript">
 	$(window).load(function(){
@@ -18,6 +13,11 @@
 			 });
 			 })
 			 </script>
+<!-- START CONTENT -->
+<div id="content" class="page">
+	
+    <div id="flexslider">
+    
         </div><!--close flexslider div-->
         
         <div id="main">

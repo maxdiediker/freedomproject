@@ -165,6 +165,10 @@ li {
   border-radius:8px;
 }
 
+.home > #content {
+    width:100%;
+}
+
 /* ---------------- END CONTENT -------------------- */
 
 /* ---------------- BEGIN FOOTER -------------------- */

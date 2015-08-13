@@ -118,6 +118,10 @@ li {
     font-weight:  bold;
 }
 
+.widget li {
+    font-size: 1.4em;
+}
+
 /* ------------END Typography----------------------- */
 
 #wrapper{
@@ -180,6 +184,7 @@ footer{
   margin: 45px 0px 30px 0px ;
   border-radius: 20px;
   background:#B4C7A8;
+  padding:10px;
 }
 
 #primary p, #secondary p{
@@ -204,6 +209,10 @@ padding-left: 10px;
     color:#FFFBF4;
     font-variant: none;
     }
+    
+.widget-title {
+    text-align:center;
+}
 
   /* ---------------END SIDEBAR TEXT STYLES----------- */
 

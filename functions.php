@@ -187,30 +187,3 @@ function get_child_pages() {
 }
 //
 
-// Add a Flexslider Gallery
-function add_flexslider() {
-
-	global $post; // don't forget to make this a global variable inside your function
-	$attachments = get_children(array('post_parent' => $post->ID, 'order' => 'ASC', 'orderby' => 'menu_order',  'post_type' => 'attachment', 'post_mime_type' => 'image', ));
-	if ($attachments) { // see if there are images attached to posting
-
-		echo '<div id="spotlight-home" class="flexslider">';
-		echo '<ul class="slides">';
-
-		foreach ( $attachments as $attachment_id => $attachment ) { // create the list items for images with captions
-
-			echo '<li>';
-			echo wp_get_attachment_image($attachment_id, 'full'); // get image size large
-			echo '<span class="description">';
-			echo get_post_field('post_content', $attachment->ID); // get image description field
-			echo '</span>';
-			echo '</li>';
-
-		}
-
-		echo '</ul>';
-		echo '</div>';
-
-	} // end see if images attachmed
-}
-//

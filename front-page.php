@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-<!-- START SIDEBAR -->
-<?php get_sidebar( 'primary' ); ?>
-<!-- END SIDEBAR -->
 
 <!--START FLEXSLIDER-->
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />

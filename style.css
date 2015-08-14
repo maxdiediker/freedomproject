@@ -26,7 +26,6 @@ Description:Custom theme for Seattle non-profit http://freedomprojectseattle.org
 html {
 background-color:#FFFBF4;
 min-width: 350px;
-max-width: 1200px;
 }
 
 body, body * {

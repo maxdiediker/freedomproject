@@ -185,11 +185,9 @@ border-radius:10px;
 	}
 }
 
-@media all and (min-width:500px) and (max-width:800px)
+@media all and (min-width:350px) and (max-width:800px)
 {
-#body{
-	min-width: 500px;
-}
+
 header{
 	height: 120px;
 }

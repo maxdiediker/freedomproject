@@ -142,6 +142,7 @@ li {
   background: #F9EED9;/*light peach */
   margin-bottom: 10px;
   overflow: hidden;
+  padding:30px;
 }
 
 .excerpt-green {
@@ -149,6 +150,7 @@ li {
   background: #E0EDD5;/*light peach */
   margin-bottom: 10px;
   overflow: hidden;
+  padding:30px;
 }
 
 .excerpt-text-right {

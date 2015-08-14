@@ -1,7 +1,7 @@
 
 header{
   background:#a8c3a4;/*med tourquoise*/
-  height:200px;
+  height:135px;
   border-radius: 8px;
   width: 100%;
 }
@@ -64,7 +64,7 @@ overflow: hidden;
    float:right;
    border-radius:20px;
    background: #E2804F;
-   margin-top: 85px;
+   margin-top: 35px;
 }
 
 #donatebtn p {
@@ -282,7 +282,7 @@ main{
 	  .jquery-nav li {
 	    float: none;
 	    display: block;
-	    background:color:#63897a;/* dark turquoise */
+	    background-color:#63897a;/* dark turquoise */
 
   }
 	#menu-main-menu > li {

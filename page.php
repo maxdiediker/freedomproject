@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+	<!-- START SIDEBAR -->
+	<?php get_sidebar( 'primary' ); ?>
+	<!-- END SIDEBAR -->
+
 
 <!-- START CONTENT -->
 <div id="content" class="page">
@@ -9,10 +13,6 @@
     <?php the_content('<p class="serif">More &raquo;</p>'); ?>
     <?php endwhile; ?>
     <?php endif; ?>
-
-	<!-- START SIDEBAR -->
-	<?php get_sidebar( 'primary' ); ?>
-	<!-- END SIDEBAR -->
 
 </div>
 <!-- END CONTENT -->

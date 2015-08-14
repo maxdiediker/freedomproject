@@ -21,6 +21,7 @@ header{
 #socialmedia {
   list-style:none;
   float:left;
+  margin-left: 5%;
 }
 
 #socialmedia ul {

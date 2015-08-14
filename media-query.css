@@ -2,7 +2,8 @@
 header{
   background:#a8c3a4;/*med tourquoise*/
   height:135px;
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   width: 100%;
 }
 #innerheader{
@@ -93,7 +94,8 @@ div.menu-main-menu-container {
 max-width: 100%;
 margin: 0px auto;
 background:#63897a;/* dark turquoise */
-border-radius:8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
 
 -webkit-transition: all 0.3s ease;
 -moz-transition: all 0.3s ease;

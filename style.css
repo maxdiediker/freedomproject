@@ -137,12 +137,43 @@ li {
   width: 780px;
 }
 
-.excerpt-peach{
-  border-radius: 8px;
-  background: #f6ead1;/*light peach */
+.excerpt-peach {
+  border-radius: 20px;
+  background: #F9EED9;/*light peach */
+  margin-bottom: 10px;
+  overflow: hidden;
 }
 
+.excerpt-green {
+  border-radius: 20px;
+  background: #E0EDD5;/*light peach */
+  margin-bottom: 10px;
+  overflow: hidden;
+}
 
+.excerpt-text-right {
+  width: 60%;
+  margin:0 2.5%;  
+  float:right;
+}
+
+.excerpt-text-left {
+  width: 60%;
+  margin:0 2.5%; 
+  float:left;
+}
+
+.excerpt-image-left {
+  width: 30%;
+  margin:0 2.5%; 
+  float:left;
+}
+
+.excerpt-image-right {
+  width: 30%;
+  margin:0 2.5%; 
+  float:right;
+}
 
 /* ---------------- BEGIN CONTENT -------------------- */
 

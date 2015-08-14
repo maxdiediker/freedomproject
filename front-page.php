@@ -15,39 +15,68 @@
 <!--END FLEXSLIDER-->
 <!-- START CONTENT -->
 <div id="content" class="home-content page">
-        
-        <div id="main" class="home-content">
-        	<div class="contentBox">
-            	<h1>Building Safer Communities</h1>
-                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-            </div><!--end contentBox-->
-            <div id="middleBox">
-            	<h1>Our Mission</h1>
-                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-            </div><!--end middleBox div-->
-            <div class="contentBox">
-            	<h1>What We Do</h1>
-                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-            </div><!--contentBox-->
-        </div><!--close main div-->
-        
-        <div id="section">
-	<div class="col span_1_of_3">
-	This is column 1
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus hendrerit metus eget commodo. Morbi at eleifend est, quis auctor mi. Nunc erat purus, auctor a ligula non, elementum porta diam. Donec iaculis lectus non.</p>
-	</div>
-	<div class="col span_2_of_3">
-	This is column 2
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus hendrerit metus eget commodo. Morbi at eleifend est, quis auctor mi. Nunc erat purus, auctor a ligula non, elementum porta diam. Donec iaculis lectus non.</p>
-    
-	</div>
-	<div class="col span_3_of_3">
-	This is column 3
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus hendrerit metus eget commodo. Morbi at eleifend est, quis auctor mi. Nunc erat purus, auctor a ligula non, elementum porta diam. Donec iaculis lectus non.</p>
-	</div><!--End the col span_1_of_3 box-->
-</div><!--End the section group-->
+    <div class="excerpt-peach">
+        <div class="excerpt-image-left">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/houses.png" alt="picture of houses" id="logo"/>
+        </div>
+        <div class="excerpt-text-right">
+    <?php echo get_the_excerpt(); ?>
 
+    <?php 
+        query_posts("page_id=52");
+        while ( have_posts() ) : the_post()
+    ?>
+        <h1><a href="<?php echo the_permalink(); ?>"><?php echo get_the_title(); ?></a></h1>
+        <?php the_excerpt(); ?>
+
+    <?php
+        endwhile; 
+        wp_reset_query();
+    ?>  
+        </div><!--end excerpt text right-->
+    </div><!--end excerpt peach-->   
+    <div class="excerpt-green"> 
+        <div class="excerpt-image-right">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/hifive.png" alt="picture of high five" id="logo"/>
+        </div>
+        <div class="excerpt-text-left">
+            <?php echo get_the_excerpt(); ?>
+
+            <?php 
+                query_posts("page_id=40");
+                while ( have_posts() ) : the_post()
+            ?>
+                <h1><a href="<?php echo the_permalink(); ?>"><?php echo get_the_title(); ?></a></h1>
+                <?php the_excerpt(); ?>
+
+            <?php
+                endwhile; 
+                wp_reset_query();
+            ?>           
+        </div><!--end excerpt text right-->
+
+    </div><!--end excerpt green-->   
+    <div class="excerpt-peach">
+        <div class="excerpt-image-left">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/handshake.png" alt="picture of handshake" id="logo"/>
+        </div>
+        <div class="excerpt-text-right">
+            <?php echo get_the_excerpt(); ?>
+
+            <?php 
+                query_posts("page_id=10");
+                while ( have_posts() ) : the_post()
+            ?>
+                <h1><a href="<?php echo the_permalink(); ?>"><?php echo get_the_title(); ?></a></h1>
+                <?php the_excerpt(); ?>
+
+            <?php
+                endwhile; 
+                wp_reset_query();
+            ?>   
+        </div><!--end excerpt text right-->
+    </div><!--end excerpt peach-->    
 </div>
 <!-- END CONTENT -->
 

@@ -6,7 +6,12 @@
 <h2>Our Work</h2>
 
         <div id="content">
-
+    <?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
+    <h2><?php the_title(); ?></h2>
+    <?php the_content('<p class="serif">More &raquo;</p>'); ?>
+    <?php endwhile; ?>
+    <?php endif; ?>
             <?php get_child_pages(); ?>
 
 </div><!-- END CONTENT -->

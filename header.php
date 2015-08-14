@@ -51,7 +51,7 @@
 
 		<div>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="freedom logo" id="logo"/>
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" alt="freedom logo" id="logo"/></a>
 			<!-- for screen readers -->
 
 		</div>

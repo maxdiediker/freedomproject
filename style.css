@@ -90,11 +90,16 @@ h3 {
     color:#688B7A;    
 }
 
-p {
+p{
     font-family: 'afta', serif;  
     font-size: 1.5em;
     line-height:1.5em;
     padding: 5px;
+}
+
+#content ul li {
+    font-size: 1.5em;
+    line-height:1.5em;
 }
 
 h1 {

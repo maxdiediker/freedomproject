@@ -18,7 +18,7 @@
     
     <div class="excerpt-peach">
         <div class="excerpt-image-left">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/houses.png" alt="picture of houses" id="logo"/>
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/houses.png" alt="picture of houses"/>
         </div>
         <div class="excerpt-text-right">
     <?php echo get_the_excerpt(); ?>
@@ -38,7 +38,7 @@
     </div><!--end excerpt peach-->   
     <div class="excerpt-green"> 
         <div class="excerpt-image-right">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/hifive.png" alt="picture of high five" id="logo"/>
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/hifive.png" alt="picture of high five"/>
         </div>
         <div class="excerpt-text-left">
             <?php echo get_the_excerpt(); ?>
@@ -59,7 +59,7 @@
     </div><!--end excerpt green-->   
     <div class="excerpt-peach">
         <div class="excerpt-image-left">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/handshake.png" alt="picture of handshake" id="logo"/>
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/handshake.png" alt="picture of handshake"/>
         </div>
         <div class="excerpt-text-right">
             <?php echo get_the_excerpt(); ?>

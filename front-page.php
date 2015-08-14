@@ -76,7 +76,16 @@
                 wp_reset_query();
             ?>   
         </div><!--end excerpt text right-->
-    </div><!--end excerpt peach-->    
+    </div><!--end excerpt peach-->  
+    <div class="cta1">
+        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/cta1.png" alt="learn about our programs"/>        
+    </div>
+    <div class="cta2">
+        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/cta2.png" alt="come meet us"/>        
+    </div>
+    <div class="cta3">
+        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/cta3.png" alt="see the impact we're making"/>        
+    </div>
 </div>
 <!-- END CONTENT -->
 

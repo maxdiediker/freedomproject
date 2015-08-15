@@ -101,12 +101,13 @@
 
 <div class="flexslider">
 <ul class="slides">
-<li><img src="slide1.jpg" /></li>
-<li><img src="slide2.jpg" /></li>
-<li><img src="slide3.jpg" /></li>
+<li><img src="images/flex-image1.jpg"  alt="Seattle" width="940" height="400"/></li>
+<li><img src="images/flex-image2.jpg" alt="Seattle" width="940" height="400"/></li>
+<li><img src="images/flex-image3.jpg" alt="Seattle" width="940" height="400"/></li>
 </ul>
 </div>
 <!--END FLEXSLIDER-->
+
 <!-- START CONTENT -->
 <div id="content" class="home-content page">
     

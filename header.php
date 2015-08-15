@@ -3,11 +3,20 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="initial-scale=1">
-<!--Flexslider-->
+<!--Flexslider scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="scripts/jquery.flexslider.js"></script>
 <link rel="stylesheet" href="flexslider.css" type="text/css">
-<!--End Flexslider-->
+<!--End Flexslider scripts-->
+
+<!-- Begin Flex Slider -->
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+$('.flexslider').flexslider();
+});
+</script>
+<!-- End Flex Slider -->
+
 	<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
 
 <!-- Remy Sharp Shim -->

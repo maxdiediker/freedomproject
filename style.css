@@ -226,12 +226,12 @@ li {
     margin-top:0;
 }
 
-#middle {
+.flexslider {
     border-radius: 8px;
     margin-bottom: 10px
 }
 
-#content.home-content {
+div.home-content.page {
     margin-top:0;
 }
 

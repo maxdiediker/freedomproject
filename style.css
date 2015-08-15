@@ -223,6 +223,11 @@ li {
 #main.home-content,
 #content.home-content {
     width:100%;
+    margin-top:0;
+}
+
+#middle {
+    border-radius: 8px;
 }
 
 /* ---------------- END CONTENT -------------------- */

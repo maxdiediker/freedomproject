@@ -3,7 +3,6 @@
 <!-- START SIDEBAR -->
 <?php get_sidebar('primary'); ?>
 <!-- END SIDEBAR -->
-<h2>Our Work</h2>
 
         <div id="content">
     <?php if (have_posts()) : ?>

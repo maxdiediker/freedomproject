@@ -228,6 +228,7 @@ li {
 
 #middle {
     border-radius: 8px;
+    margin-bottom:
 }
 
 /* ---------------- END CONTENT -------------------- */
@@ -309,3 +310,6 @@ padding-left: 10px;
 
   /* ---------------END SIDEBAR TEXT STYLES----------- */
 
+  ul.slides li img {
+      width: 100%;
+  }

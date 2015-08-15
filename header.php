@@ -2,7 +2,8 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="initial-scale=1">
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
 <!--Flexslider scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="scripts/jquery.flexslider.js"></script>
@@ -23,6 +24,7 @@ $('.flexslider').flexslider();
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
 <style type="text/css" media="screen">
 @import url( <?php bloginfo('stylesheet_url'); ?> );
 @import url(<?php bloginfo('stylesheet_directory'); ?>/media-query.css);
@@ -87,14 +89,15 @@ $('.flexslider').flexslider();
 <!-- END NAVIGATION -->
 
 <div id = "social-m">
-	<div class = "twitter">
-<a href = "google.com">social</a>
+	   <div class = "twitter-m">
+			 <a href="" title="d"><img src='images/twitter.png' alt="twitter" title="d"></a>
+		</div>
+
+		<div class = "facebook-m"><a href=""><img src="images/facebook.png" alt="facebook"></a>
 	</div>
-	<div class = "twitter">
-</div>
 </div>
 <div id = "donate-m">
-	<a>donate</a>
+	<a>Donate</ap>
 </div>
 
 <!-- START MIDDLE -->

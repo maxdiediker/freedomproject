@@ -228,7 +228,11 @@ li {
 
 #middle {
     border-radius: 8px;
-    margin-bottom:
+    margin-bottom: 10px
+}
+
+#content.home-content {
+    margin-top:0;
 }
 
 /* ---------------- END CONTENT -------------------- */

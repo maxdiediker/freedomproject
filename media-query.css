@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 
 header{
   background:#a8c3a4;/*med tourquoise*/
@@ -38,14 +41,14 @@ header{
 }
 
 #socialmedia a {
-display:block;
-width:40px;
-height:40px;
-background-repeat: no-repeat;
-background-size: cover;
-text-indent: 100%;
-white-space: nowrap;
-overflow: hidden;
+  display:block;
+  width:40px;
+  height:40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .twitter a {
@@ -179,53 +182,91 @@ border-radius:10px;
 
 /* ---------------------  Media Queries --------------------------------  */
 /* Main Nav and Header */
-@media screen and (min-width:951px) and (max-width:1200px)
+@media screen and (max-width:1400px) {
+  header{
+    /*background: red;*/
+  }
 
-{
+}
+@media screen and (max-width:1300px) {
+  /*large tablet*/
+  #wrapper{
+    width: 100%;
+  }
   header{
     /*background: yellow;*/
-}
+  }
+  ul#menu-main-menu.menu ul {
+    border:1px solid antiquewhite;
+  }
 
 	ul#menu-main-menu.menu > li a {
-		padding: 17px 6px;
+    font-size: 1.2em;
+		padding: 17px 18px;
+
 	}
-	ul#menu-main-menu.menu > li  {
+	/*ul#menu-main-menu.menu > li  {
 	border-right: 1px solid antiquewhite;
-	}
+	}*/
 }
-@media screen and (min-width:871px) and (max-width:950px)
+@media screen and (max-width:1024px)
 {
 
+
   header{
-  /*background: purple;*/
+  /*background: orange;*/
   }
+
   #menu-main-menu {
   text-align: center;
-  overflow: hidden;
-  height:126px;
+
+  height:120px;
   }
   ul#menu-main-menu.menu > li a {
-    padding: 17px 36px;
+    padding: 17px 50px;
   }
   ul#menu-main-menu.menu > li  {
   /*border-right: 1px solid green;*/
   }
+  #donatebtn{
+    width:12%;
+  }
+  #socialmedia {
+    list-style:none;
+    float:left;
+    margin-left: 2%;
+  }
+
+  #socialmedia ul {
+    display: inline;
+    width:14%;
+  }
+
+  #socialmedia ul li {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 30px;
+
+  }
 
 }
-@media screen and (min-width:200px) and (max-width:870px)
-{
+@media screen and (max-width:768px) {
+  header{
+    /*background: purple;*/
+}
   #innerheader{
     float:left;
     width:100%
   }
 
   #logo {
+      min-width: 500px;
   		float:none;
   		max-width: 745px;
       width:80%;
-      margin-top:3%;
+      margin-top:5%;
       margin-left:10%;
-        margin-right:10%;
+      margin-right:10%;
   }
   header{
     /*background: green;*/
@@ -248,8 +289,8 @@ border-radius:10px;
     background: #E2804F;
   }
   #donate-m a{
-    font-size: 1.7em;
-
+    font-size: 1.6em;
+    line-height: 45px;
     text-align: center;
     color:white;
   }
@@ -258,18 +299,22 @@ border-radius:10px;
   	width:50%;
   	float:right;
   	height: 64px;
-  	/*background: yellow;*/
-  }
 
+  }
+  #social-m img {
+  margin-left: 30%;
+  width: 50px;
+  margin-top: 6px;
+
+  }
 
   .twitter-m  {
     float:left;
     width:50%;
-
   }
   .facebook-m  {
     float:right;
-
+    width:50%;
   }
 
   #primary{
@@ -291,17 +336,11 @@ border-radius:10px;
   	background:#63897a;/* dark turquoise */
   	padding: 14px 24px;
   	display:inherit;
-
   }
   .jquery-title a {
   	color:#EEF2DC !important;
   	font-size: 1.5em;
   }
-
-
-
-
-
 	.jquery-nav .menu-main-menu-container {
 		display: none;
 		height:auto;
@@ -322,18 +361,11 @@ border-radius:10px;
 
   }
 	#menu-main-menu > li {
-
-
 		display: block;
-
-
 	}
 	#menu-main-menu > li a {
 		display: block;
-
 	}
-
-
 	div.menu-icon {
 		float:right;
 		width:40px;

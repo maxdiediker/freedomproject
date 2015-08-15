@@ -78,27 +78,32 @@ $('.flexslider').flexslider();
 
 
 </header>
+<!-- mobile donate and nav -->
+<div id = "social-m">
+	   <div class = "twitter-m">
+			 <a href="https://twitter.com/FreedomProject3" target="#">
+				 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter.png" alt=""/>
+			 </a>
+		</div>
+		<div class = "facebook-m">
+			<a href="https://www.facebook.com/FreedomProjectSeattle" target="#">
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook.png" alt=""/>
+			</a>
 
+	</div>
+</div>
+<div id = "donate-m">
+		<a href="https://secure.lglforms.com/form_engine/s/3ZhDsGvDyJsI1F2W50Dv3g" target="_blank"><p>Donate</p></a>
+</div>
+<!-- END mobile donate and nav -->
 <!-- START NAVIGATION -->
 
 	<div class="jquery-nav">
-				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.png"></div></a></h4>
+				<h4 class="jquery-title"><a href="#">Drop-Down Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.png"></div></a></h4>
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
 
 <!-- END NAVIGATION -->
-
-<div id = "social-m">
-	   <div class = "twitter-m">
-			 <a href="" title="d"><img src='images/twitter.png' alt="twitter" title="d"></a>
-		</div>
-
-		<div class = "facebook-m"><a href=""><img src="images/facebook.png" alt="facebook"></a>
-	</div>
-</div>
-<div id = "donate-m">
-	<a>Donate</ap>
-</div>
 
 <!-- START MIDDLE -->
 <div id="middle">

@@ -5,7 +5,9 @@
 
 <div class="flexslider">
 <ul class="slides">
-<li> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner.png" alt="banner image"/></li>
+<li>         <?php $ourimpact_page = get_post(12); ?>
+        <a href="<?php echo get_permalink($ourimpact_page->ID); ?>">
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner.png" alt="banner image"/></a></li>
 </ul>
 </div>
 <!--END FLEXSLIDER-->
@@ -87,8 +89,8 @@
         </a>
     </div>
     <div class="cta3">
-        <?php $comemeetus_page = get_post(12); ?>
-        <a href="<?php echo get_permalink($comemeetus_page->ID); ?>">
+        <?php $impact_page = get_post(12); ?>
+        <a href="<?php echo get_permalink($impact_page->ID); ?>">
         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/cta3.png" alt="see the impact we're making"/>        
         </a>
     </div>

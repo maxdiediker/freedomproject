@@ -212,6 +212,12 @@ li {
     margin:30px 2.5% 30px 0px;
 }
 
+.cta1 img,
+.cta2 img,
+.cta3 img {
+    width:100%;
+}
+
 /* ---------------- END HOME PAGE -------------------- */
 
 

@@ -89,6 +89,7 @@ header{
   font-size: 1.6em;
   line-height: 45px;
   text-align: center;
+  font-family: 'amble', sans-serif;
 }
 
 /* --------------start css drop down menu -----------*/
@@ -316,6 +317,7 @@ border-radius:10px;
   }
   #donate-m p {  
   line-height: 64px;
+  font-family: 'amble', sans-serif;
   }
   
   #social-m{
@@ -429,9 +431,24 @@ border-radius:10px;
     .cta3 {
     float:none;
     margin: 0 auto;
+    width: 50%;
     }
+    
+    .facebook-m img,
+    .twitter-m img {
+    margin-top: 12px;
+    }
+    
   }
 
+  @media screen and (max-width:650px) {  
+  .facebook-m img,
+  .twitter-m img {
+    width: 25%;
+    margin-top: 12px;
+    }
+  
+  }
   @media screen and (max-width:550px) {
     body {
       font-size: 85%;
@@ -440,10 +457,48 @@ border-radius:10px;
     header {
       height:100px;
     }
+    
+    .cta1,
+    .cta2,
+    .cta3 {
+    float:none;
+    margin: 0 auto;
+    width: 70%;
+    }
+    
+    .facebook-m img,
+    .twitter-m img {
+    width: 30%;
+    margin-top: 12px;
+    }
+    
   }
+  
+  @media screen and (max-width:500px) {
+    header {
+      height:90px;
+    }
+    
+    .facebook-m img,
+    .twitter-m img {
+    width: 30%;
+    }
+    
+  }   
+  
 
   @media screen and (max-width:400px) {
     header {
-      height:85px;
+      height:75px;
     }
-  } 
+  }
+
+    @media screen and (max-width:350px) {
+    
+    .facebook-m img,
+    .twitter-m img {
+    width: 45%;
+    }
+    
+  }   
+  

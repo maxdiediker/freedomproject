@@ -272,9 +272,8 @@ border-radius:10px;
   }
 
   #logo {
-      min-width: 500px;
-  		float:none;
-  		max-width: 745px;
+    float:none;
+    max-width: 745px;
       width:80%;
       margin-top:5%;
       margin-left:10%;
@@ -306,25 +305,29 @@ border-radius:10px;
     text-align: center;
     color:white;
   }
+  #donate-m p {  
+  line-height: 64px;
+  }
+  
   #social-m{
   	display: inline;
   	width:50%;
   	float:right;
-  	height: 64px;
-
+  	height: 65px;
+        background-color: #E0EDD5;
   }
   .facebook-m img {
     display:block;
     margin-left: 22%;
-    width: 34%;
-    margin-top: 2px;
+    width: 22%;
+    margin-top: 10px;
   }
 
   .twitter-m img {
     display:block;
     margin-left: 50%;
-    width: 34%;
-    margin-top: 2px;
+    width: 22%;
+    margin-top: 10px;
   }
   .twitter-m  {
     float:left;

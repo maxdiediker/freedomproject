@@ -4,9 +4,9 @@
 
 <footer>
     <p>
-    <ul> 
+    <ul>
         <li><?php print ("&copy; " . date ('Y') . " "); ?> . Freedom Project . Design by SCC Group 2</li>
-    </ul> 
+    </ul>
         <?php wp_loginout(); ?>
     </p>
 </footer>
@@ -26,7 +26,7 @@
 
 		jQuery(window).resize(function(){
 
-			if (jQuery(window).width() > 800) {
+			if (jQuery(window).width() > 830) {
 				jQuery(".menu-main-menu-container").css('display', 'block');
 			}
 

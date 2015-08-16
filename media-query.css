@@ -250,7 +250,7 @@ border-radius:10px;
   }
 
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:817px) {
   header{
     /*background: purple;*/
 }
@@ -289,7 +289,7 @@ border-radius:10px;
     background: #E2804F;
   }
   #donate-m a{
-    font-size: 1.6em;
+    font-size: 1.3em;
     line-height: 45px;
     text-align: center;
     color:white;
@@ -301,13 +301,17 @@ border-radius:10px;
   	height: 64px;
 
   }
-  #social-m img {
-  margin-left: 30%;
-  width: 50px;
-  margin-top: 6px;
-
+  .facebook-m img {
+    margin-left: 22%;
+    width: 34%;
+    margin-top: 2px;
   }
 
+  .twitter-m img {
+    margin-left: 50%;
+    width: 34%;
+    margin-top: 2px;
+  }
   .twitter-m  {
     float:left;
     width:50%;
@@ -334,6 +338,7 @@ border-radius:10px;
   /*mobile nav bar*/
   .jquery-title {
   	background:#63897a;/* dark turquoise */
+    height: 65px;
   	padding: 14px 24px;
   	display:inherit;
   }

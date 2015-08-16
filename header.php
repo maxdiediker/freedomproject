@@ -82,12 +82,12 @@ $('.flexslider').flexslider();
 <div id = "social-m">
 	   <div class = "twitter-m">
 			 <a href="https://twitter.com/FreedomProject3" target="#">
-				 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter.png" alt=""/>
+				 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter.png" alt="twitter"/>
 			 </a>
 		</div>
 		<div class = "facebook-m">
 			<a href="https://www.facebook.com/FreedomProjectSeattle" target="#">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook.png" alt=""/>
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook.png" alt="facebook"/>
 			</a>
 
 	</div>
@@ -99,7 +99,7 @@ $('.flexslider').flexslider();
 <!-- START NAVIGATION -->
 
 	<div class="jquery-nav">
-				<h4 class="jquery-title"><a href="#">Drop-Down Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.png"></div></a></h4>
+				<h4 class="jquery-title"><a href="#"><div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.png"></div></a></h4>
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
 

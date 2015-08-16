@@ -59,7 +59,19 @@ header{
   display:block;
   background-image:url('images/facebook.png');
 }
+.facebook-m img {
+  display:none;
+  margin-left: 22%;
+  width: 34%;
+  margin-top: 2px;
+}
 
+.twitter-m img {
+  display:none;
+  margin-left: 50%;
+  width: 34%;
+  margin-top: 2px;
+}
 
 
 /* ---------------- END SOCIAL MEDIA -------------------- */
@@ -302,12 +314,14 @@ border-radius:10px;
 
   }
   .facebook-m img {
+    display:block;
     margin-left: 22%;
     width: 34%;
     margin-top: 2px;
   }
 
   .twitter-m img {
+    display:block;
     margin-left: 50%;
     width: 34%;
     margin-top: 2px;

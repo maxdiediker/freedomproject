@@ -354,6 +354,7 @@ border-radius:10px;
 
   #primary{
   	width:80%;
+        margin: 45px auto 0 auto;
   	float:none;
   }
   main{

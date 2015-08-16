@@ -198,7 +198,9 @@ border-radius:10px;
   header{
     /*background: red;*/
   }
-
+    body {
+      font-size: 97%;
+    }
 }
 @media screen and (max-width:1300px) {
   /*large tablet*/
@@ -262,6 +264,13 @@ border-radius:10px;
   }
 
 }
+
+@media screen and (max-width:850px) {
+  body {
+  font-size: 94%;
+  }    
+}
+
 @media screen and (max-width:817px) {
   header{
     /*background: purple;*/
@@ -402,7 +411,39 @@ border-radius:10px;
 	}
 
 
-
-
-
 }
+
+  @media screen and (max-width:750px) {
+    .excerpt-text-right,
+    .excerpt-text-left {
+      width: 100%; 
+      float:none;
+    }
+    .excerpt-image-left,
+    .excerpt-image-right {
+      display:none;
+    }
+    
+    .cta1,
+    .cta2,
+    .cta3 {
+    float:none;
+    margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    body {
+      font-size: 85%;
+    }
+    
+    header {
+      height:100px;
+    }
+  }
+
+  @media screen and (max-width:400px) {
+    header {
+      height:85px;
+    }
+  } 

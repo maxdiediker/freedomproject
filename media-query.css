@@ -3,7 +3,7 @@
 
 
 header{
-  background:#a8c3a4;/*med tourquoise*/
+  background:#B4C7A8;/*med tourquoise*/
   height:135px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -165,8 +165,6 @@ z-index: 20;
 
 #menu-main-menu ul.sub-menu > li {
 display: block;
-border-bottom: 1px solid #EEF2DC;/*eggshell white*/
-
 float: none;
 
 }
@@ -210,9 +208,6 @@ border-radius:10px;
   }
   header{
     /*background: yellow;*/
-  }
-  ul#menu-main-menu.menu ul {
-    border:1px solid antiquewhite;
   }
 
 	ul#menu-main-menu.menu > li a {
@@ -296,6 +291,12 @@ border-radius:10px;
   header{
   	height: 120px;
   }
+  
+  #content {
+    width: 80%;
+    float: none;
+    margin: 45px auto 0 auto;
+  }
   #donatebtn{
   	display:none;
   }
@@ -328,17 +329,19 @@ border-radius:10px;
         background-color: #E0EDD5;
   }
   .facebook-m img {
-    display:block;
+    display:inline-block;
     margin-left: 22%;
     width: 22%;
-    margin-top: 10px;
+    margin-top: 12px;
+    vertical-align: middle;    
   }
 
   .twitter-m img {
-    display:block;
+    display:inline-block;
     margin-left: 50%;
     width: 22%;
-    margin-top: 10px;
+    margin-top: 12px;
+    vertical-align: middle;
   }
   .twitter-m  {
     float:left;
@@ -352,12 +355,11 @@ border-radius:10px;
   #primary{
   	width:100%;
   	float:none;
-
   }
   main{
-  	width:100%;
-  	float:none;
-
+    width: 80%;
+    float: none;
+    margin: 45px auto 0 auto;
   }
   .jquery-nav {
   	width:100%;

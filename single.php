@@ -7,7 +7,6 @@
 <?php //add_flexslider(); ?>
 
 <div id = "main-single">
-  <h3>this is single.php</h3>
   <!-- START CONTENT -->
     <?php if (have_posts()) : while(have_posts()) : the_post();?> 
   <div id="content" class="single">

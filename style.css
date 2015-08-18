@@ -61,11 +61,11 @@ li {
 
 @font-face {
     font-family: 'amble';
-    src: url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/Amble-Bold-webfont.eot');
-    src: url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/Amble-Bold-webfont.woff') format('woff'),
-         url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/Amble-Bold-webfont.ttf') format('truetype'),
-         url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/Amble-Bold-webfont.svg#amblebold') format('svg');
+    src: url('fonts/Amble-Bold-webfont.eot');
+    src: url('fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Bold-webfont.woff') format('woff'),
+         url('fonts/Amble-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Bold-webfont.svg#amblebold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -73,12 +73,12 @@ li {
 
 @font-face {
     font-family: 'afta';
-    src: url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/aftaserifthin-regular-webfont.eot');
-    src: url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/aftaserifthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/aftaserifthin-regular-webfont.woff2') format('woff2'),
-         url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/aftaserifthin-regular-webfont.woff') format('woff'),
-         url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/aftaserifthin-regular-webfont.ttf') format('truetype'),
-         url('public_html/freedomproject/wp-content/themes/freedomproject/fonts/aftaserifthin-regular-webfont.svg#afta_serifregular') format('svg');
+    src: url('fonts/aftaserifthin-regular-webfont.eot');
+    src: url('fonts/aftaserifthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aftaserifthin-regular-webfont.woff2') format('woff2'),
+         url('fonts/aftaserifthin-regular-webfont.woff') format('woff'),
+         url('fonts/aftaserifthin-regular-webfont.ttf') format('truetype'),
+         url('fonts/aftaserifthin-regular-webfont.svg#afta_serifregular') format('svg');
     font-weight: normal;
     font-style: normal;
 

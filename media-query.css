@@ -283,7 +283,7 @@ border-radius:10px;
 }
   #innerheader{
     float:left;
-    width:100%
+    width:100%;
   }
 
   #logo {
@@ -419,7 +419,7 @@ border-radius:10px;
 	}
 
 	#menu-main-menu li:hover > ul.sub-menu{
-		display: none
+		display: none;
 
 	}
 

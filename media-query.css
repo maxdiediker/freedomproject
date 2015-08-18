@@ -72,7 +72,12 @@ header{
   width: 34%;
   margin-top: 2px;
 }
+#primary ul.related-posts li {
+   list-style-type: disc;
+   margin-left: 25px;
+}
 
+#primary li.related-posts ul li,
 
 /* ---------------- END SOCIAL MEDIA -------------------- */
 #donatebtn {

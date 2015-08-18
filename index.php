@@ -6,7 +6,7 @@
 
 <!-- START CONTENT -->
 <div id="content" class="index">
-  <h2>This is the index.php page, it displays all posts</h2>
+
 <?php if (have_posts()) : ?>
 
     <?php while (have_posts()) : the_post(); ?>

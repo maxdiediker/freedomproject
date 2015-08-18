@@ -143,6 +143,11 @@ padding: 17px 20px;
 font-size: 1.4em;
 
 }
+
+#menu-main-menu li.current_page_item a {
+		text-decoration: underline;
+
+	}
 #menu-main-menu > li a:hover {
 
 background-color:#EEF2DC;/*eggshell white*/
@@ -264,7 +269,7 @@ border-radius:10px;
 @media screen and (max-width:850px) {
   body {
   font-size: 94%;
-  }    
+  }
 }
 
 @media screen and (max-width:817px) {
@@ -291,7 +296,7 @@ border-radius:10px;
   header{
   	height: 120px;
   }
-  
+
   #content {
     width: 80%;
     float: none;
@@ -316,11 +321,11 @@ border-radius:10px;
     text-align: center;
     color:white;
   }
-  #donate-m p {  
+  #donate-m p {
   line-height: 64px;
   font-family: 'amble', sans-serif;
   }
-  
+
   #social-m{
   	display: inline;
   	width:50%;
@@ -333,7 +338,7 @@ border-radius:10px;
     margin-left: 22%;
     width: 22%;
     margin-top: 12px;
-    vertical-align: middle;    
+    vertical-align: middle;
   }
 
   .twitter-m img {
@@ -419,14 +424,14 @@ border-radius:10px;
   @media screen and (max-width:750px) {
     .excerpt-text-right,
     .excerpt-text-left {
-      width: 100%; 
+      width: 100%;
       float:none;
     }
     .excerpt-image-left,
     .excerpt-image-right {
       display:none;
     }
-    
+
     .cta1,
     .cta2,
     .cta3 {
@@ -434,31 +439,31 @@ border-radius:10px;
     margin: 0 auto;
     width: 50%;
     }
-    
+
     .facebook-m img,
     .twitter-m img {
     margin-top: 12px;
     }
-    
+
   }
 
-  @media screen and (max-width:650px) {  
+  @media screen and (max-width:650px) {
   .facebook-m img,
   .twitter-m img {
     width: 25%;
     margin-top: 12px;
     }
-  
+
   }
   @media screen and (max-width:550px) {
     body {
       font-size: 85%;
     }
-    
+
     header {
       height:100px;
     }
-    
+
     .cta1,
     .cta2,
     .cta3 {
@@ -466,27 +471,27 @@ border-radius:10px;
     margin: 0 auto;
     width: 70%;
     }
-    
+
     .facebook-m img,
     .twitter-m img {
     width: 30%;
     margin-top: 12px;
     }
-    
+
   }
-  
+
   @media screen and (max-width:500px) {
     header {
       height:90px;
     }
-    
+
     .facebook-m img,
     .twitter-m img {
     width: 30%;
     }
-    
-  }   
-  
+
+  }
+
 
   @media screen and (max-width:400px) {
     header {
@@ -495,11 +500,10 @@ border-radius:10px;
   }
 
     @media screen and (max-width:350px) {
-    
+
     .facebook-m img,
     .twitter-m img {
     width: 45%;
     }
-    
-  }   
-  
+
+  }

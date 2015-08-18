@@ -391,11 +391,7 @@ border-radius:10px;
 
 	}
 
-        .jquery-nav .menu-main-menu-container ul {/*fixes mobile menu dropping down before clicking*/
-        display: none;
-        height:auto;
 
-	}
         
 	#menu-main-menu {
 		text-align: left;

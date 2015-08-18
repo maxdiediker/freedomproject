@@ -5,7 +5,7 @@
 <footer>
     <p>
     <ul>
-        <li><?php print ("&copy; " . date ('Y') . " "); ?> | Freedom Project | Design by SCC Group 2</li>
+        <li><?php print ("&copy; " . date ('Y') . " "); ?> &nbsp|&nbsp Freedom Project &nbsp|&nbsp Design by SCC Group 2</li>
     </ul>
         <?php wp_loginout(); ?>
     </p>

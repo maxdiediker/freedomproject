@@ -89,6 +89,9 @@ header{
    background: #E2804F;
    margin-top: 35px;
 }
+#donatebtn a{
+  color:#fffbf4;
+}
 
 #donatebtn p {
   font-size: 1.6em;
@@ -152,14 +155,11 @@ font-size: 1.4em;
 
 
 
-#menu-main-menu li.current-menu-item a,
-#menu-main-menu li.current_page_ancestor a {
+#menu-main-menu li.current-menu-item a {
     text-decoration: underline;
 }
-    
-#menu-main-menu li.current-menu-item ul.sub-menu {
-    text-decoration: none;
-}
+
+
 #menu-main-menu > li a:hover {
 
 background-color:#EEF2DC;/*eggshell white*/
@@ -188,7 +188,7 @@ float: none;
 
 #menu-main-menu ul.sub-menu li a {
 padding: 11px 12px;
-
+text-decoration: none;
 
 }
 
@@ -430,20 +430,20 @@ border-radius:10px;
 	#menu-main-menu li:hover > ul.sub-menu{
 /*		display: none;*/
 	}
-        
+
         #menu-main-menu li:hover > ul.sub-menu{
             display: block;
             margin-left:30px;
             border-radius:10px;
         }
-        
+
         #menu-main-menu ul.sub-menu {
             position: relative;
             display: block;
             margin-left: 30px;
         }
-       
-        
+
+
 
 
 }

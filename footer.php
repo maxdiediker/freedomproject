@@ -30,7 +30,7 @@
 				jQuery(".menu-main-menu-container").css('display', 'block');
 			}
 
-			if (jQuery(window).width() < 800) {
+			if (jQuery(window).width() < 830) {
 				jQuery(".menu-main-menu-container").css('display', 'none');
 			}
 		});

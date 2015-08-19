@@ -24,8 +24,8 @@
     <?php endwhile; ?>
 
 		<nav class="post-nav">
-            <p class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></p>
-            <p class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></p>
+            <p class="alignleft"><?php next_posts_link('&laquo; Older Posts','1000') ?></p>
+            <p class="alignright"><?php previous_posts_link('Newer Posts &raquo;','1000') ?></p>
 		</nav>
 
 <?php endif; ?>

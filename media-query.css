@@ -149,6 +149,8 @@ font-size: 1.4em;
 
 }
 
+
+
 #menu-main-menu li.current_page_item a {
 		text-decoration: underline;
 
@@ -421,9 +423,22 @@ border-radius:10px;
 	}
 
 	#menu-main-menu li:hover > ul.sub-menu{
-		display: none;
-
+/*		display: none;*/
 	}
+        
+        #menu-main-menu li:hover > ul.sub-menu{
+            display: block;
+            margin-left:30px;
+            border-radius:10px;
+        }
+        
+        #menu-main-menu ul.sub-menu {
+            position: relative;
+            display: block;
+            margin-left: 30px;
+        }
+       
+        
 
 
 }

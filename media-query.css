@@ -152,10 +152,14 @@ font-size: 1.4em;
 
 
 
-#menu-main-menu li.current_page_item a {
-		text-decoration: underline;
-
-	}
+#menu-main-menu li.current-menu-item a,
+#menu-main-menu li.current_page_ancestor a {
+    text-decoration: underline;
+}
+    
+#menu-main-menu li.current-menu-item ul.sub-menu {
+    text-decoration: none;
+}
 #menu-main-menu > li a:hover {
 
 background-color:#EEF2DC;/*eggshell white*/

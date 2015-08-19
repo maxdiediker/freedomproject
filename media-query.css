@@ -81,7 +81,7 @@ header{
 
 /* ---------------- END SOCIAL MEDIA -------------------- */
 #donatebtn {
-  color:white;
+
    width: 14.5833%;
    height: 55px;
    float:right;
@@ -95,6 +95,7 @@ header{
   line-height: 45px;
   text-align: center;
   font-family: 'amble', sans-serif;
+  color:antiquewhite !important;
 }
 
 /* --------------start css drop down menu -----------*/
@@ -392,7 +393,7 @@ border-radius:10px;
 	}
 
 
-        
+
 	#menu-main-menu {
 		text-align: left;
 		height:auto;

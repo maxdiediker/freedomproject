@@ -153,8 +153,8 @@ font-size: 1.4em;
 
 }
 
-#menu-main-menu li.current-menu-item a,
-#menu-main-menu li.current_page_ancestor a {
+#menu-main-menu li.current-menu-item > a,
+#menu-main-menu li.current_page_ancestor > a {
 
     text-decoration: underline;
 }
@@ -165,11 +165,9 @@ font-size: 1.4em;
 
 
 #menu-main-menu > li a:hover {
-
 background-color:#EEF2DC;/*eggshell white*/
 color:#63897a;/* dark turquoise */
 /*border-bottom:2px solid #f6ead1;*/
-
 
 }
 
@@ -192,6 +190,7 @@ float: none;
 
 #menu-main-menu ul.sub-menu li a {
 padding: 11px 12px;
+text-decoration: none;
 
 }
 
